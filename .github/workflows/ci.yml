@@ -33,7 +33,7 @@ jobs:
       VITE_CONFIG_NATIVE_IGNORE_WARNING: "true"
       # No LLM keys in CI: every LLM node replays recorded outputs or uses a scripted model in tests.
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
       - uses: actions/setup-node@v4
