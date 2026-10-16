@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+.next
+node_modules
+.pgdata
+test-results
+playwright-report
+data/results/.partial
+data/datasets/.parts
+AGENTS.md
+CLAUDE.md
+.claude

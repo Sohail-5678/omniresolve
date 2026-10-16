@@ -1,0 +1,390 @@
+@import "tailwindcss";
+
+/*
+ * OmniResolve — "civic poster" design system.
+ * Signal orange + warm ink + paper, borrowed from the poster school (big wide caps, crop
+ * marks, pill toggles). Status colours are muted earth tones tuned to sit beside orange:
+ * they always come with a text label and an icon, never colour alone.
+ */
+:root {
+  --signal: #e8703a;
+  --signal-deep: #c4552a;
+  --signal-ink: #8a3412;
+  --signal-soft: #f2a173;
+  --signal-wash: #fbe3d3;
+  --ink: #1c1a17;
+  --ink-2: #2b2824;
+  --ink-soft: #4a453e;
+  --muted: #6e675d;
+  --paper: #f4efe6;
+  --paper-2: #ebe4d7;
+  --paper-3: #e1d8c8;
+  --card: #fbf8f2;
+  --line: rgba(28, 26, 23, 0.13);
+  --line-strong: rgba(28, 26, 23, 0.28);
+  --ok: #2f6f4e;
+  --ok-wash: #dcebe1;
+  --warn: #9a6512;
+  --warn-wash: #f5e6c8;
+  --bad: #a8352a;
+  --bad-wash: #f6dcd6;
+  --info: #2e4a6b;
+  --info-wash: #dde5ef;
+  --gold: #d6a632;
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+@theme inline {
+  --color-signal: var(--signal);
+  --color-signal-deep: var(--signal-deep);
+  --color-signal-ink: var(--signal-ink);
+  --color-signal-soft: var(--signal-soft);
+  --color-signal-wash: var(--signal-wash);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-soft: var(--ink-soft);
+  --color-muted: var(--muted);
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-paper-3: var(--paper-3);
+  --color-card: var(--card);
+  --color-line: var(--line);
+  --color-ok: var(--ok);
+  --color-ok-wash: var(--ok-wash);
+  --color-warn: var(--warn);
+  --color-warn-wash: var(--warn-wash);
+  --color-bad: var(--bad);
+  --color-bad-wash: var(--bad-wash);
+  --color-info: var(--info);
+  --color-info-wash: var(--info-wash);
+  --color-gold: var(--gold);
+  --font-sans: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-variation-settings: "wdth" 100;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--ink);
+  color: var(--signal-soft);
+}
+
+:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+/* ---------------------------------------------------------------- type */
+.display {
+  font-family: var(--font-sans);
+  font-variation-settings: "wdth" 125;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.012em;
+  line-height: 0.86;
+}
+.display-tight {
+  font-variation-settings: "wdth" 118;
+  font-weight: 850;
+  text-transform: uppercase;
+  letter-spacing: -0.008em;
+  line-height: 0.9;
+}
+.eyebrow {
+  font-variation-settings: "wdth" 125;
+  font-weight: 700;
+  font-size: 0.66rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.wide {
+  font-variation-settings: "wdth" 118;
+}
+.mono {
+  font-family: var(--font-mono);
+  font-feature-settings: "zero" 1;
+}
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------------------------------------------------------------- poster frame */
+.poster {
+  position: relative;
+  background: var(--signal);
+  border-radius: 28px;
+  box-shadow:
+    inset 0 -60px 80px -60px rgba(138, 52, 18, 0.45),
+    0 1px 0 rgba(255, 255, 255, 0.3) inset;
+  overflow: hidden;
+  isolation: isolate;
+}
+.poster-grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.18;
+  mix-blend-mode: multiply;
+  background-image: radial-gradient(rgba(28, 26, 23, 0.22) 0.6px, transparent 0.7px);
+  background-size: 3px 3px;
+  z-index: 1;
+}
+
+/* ---------------------------------------------------------------- pill toggle */
+.pill-toggle {
+  display: inline-flex;
+  gap: 4px;
+  padding: 5px;
+  border-radius: 14px;
+  background: var(--ink);
+  box-shadow: 0 0 0 3px var(--ink-2);
+}
+.pill-toggle > button,
+.pill-toggle > a {
+  position: relative;
+  border-radius: 10px;
+  padding: 0.7rem 1.6rem;
+  font-variation-settings: "wdth" 118;
+  font-weight: 600;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--signal);
+  transition:
+    background-color 180ms ease,
+    color 180ms ease,
+    transform 160ms var(--ease-out);
+}
+.pill-toggle > [data-active="true"] {
+  background: var(--paper);
+  color: var(--ink);
+}
+.pill-toggle > button:active,
+.pill-toggle > a:active {
+  transform: scale(0.97);
+}
+.pill-toggle.sm > button {
+  padding: 0.38rem 0.85rem;
+  font-size: 0.62rem;
+  border-radius: 8px;
+}
+.pill-toggle.sm {
+  border-radius: 11px;
+  padding: 3px;
+  box-shadow: none;
+}
+
+/* ---------------------------------------------------------------- buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 12px;
+  font-variation-settings: "wdth" 112;
+  font-weight: 650;
+  font-size: 0.82rem;
+  letter-spacing: 0.01em;
+  padding: 0.65rem 1rem;
+  transition:
+    transform 160ms var(--ease-out),
+    background-color 160ms ease,
+    color 160ms ease,
+    box-shadow 160ms ease;
+  user-select: none;
+}
+.btn:active:not(:disabled) {
+  transform: scale(0.97);
+}
+.btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.btn-ink {
+  background: var(--ink);
+  color: var(--paper);
+}
+.btn-signal {
+  background: var(--signal);
+  color: var(--ink);
+}
+.btn-paper {
+  background: var(--card);
+  color: var(--ink);
+  box-shadow: inset 0 0 0 1px var(--line-strong);
+}
+.btn-ghost {
+  background: transparent;
+  color: inherit;
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+@media (hover: hover) and (pointer: fine) {
+  .btn-ink:hover:not(:disabled) {
+    background: var(--ink-2);
+  }
+  .btn-signal:hover:not(:disabled) {
+    background: var(--signal-soft);
+  }
+  .btn-paper:hover:not(:disabled) {
+    background: #fff;
+  }
+  .btn-ghost:hover:not(:disabled) {
+    box-shadow: inset 0 0 0 1px var(--line-strong);
+  }
+}
+
+/* ---------------------------------------------------------------- badges */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.32rem;
+  height: 1.3rem;
+  padding: 0 0.45rem;
+  border-radius: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.badge-live {
+  background: var(--ok-wash);
+  color: var(--ok);
+}
+.badge-replay {
+  background: var(--info-wash);
+  color: var(--info);
+}
+.badge-mock {
+  color: var(--ink-soft);
+  box-shadow: inset 0 0 0 1px var(--line-strong);
+  background-image: repeating-linear-gradient(135deg, transparent 0 4px, rgba(28, 26, 23, 0.05) 4px 5px);
+}
+.badge-fault {
+  background: var(--bad-wash);
+  color: var(--bad);
+}
+.badge-code {
+  background: var(--ink);
+  color: var(--paper);
+}
+.badge-eval {
+  background: var(--warn-wash);
+  color: var(--warn);
+}
+.badge-signal {
+  background: var(--signal-wash);
+  color: var(--signal-ink);
+}
+
+/* ---------------------------------------------------------------- panels */
+.panel {
+  background: var(--card);
+  border-radius: 18px;
+  box-shadow:
+    0 0 0 1px var(--line),
+    0 1px 0 rgba(255, 255, 255, 0.8) inset,
+    0 12px 24px -18px rgba(28, 26, 23, 0.35);
+}
+.panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.85rem 1rem 0.7rem;
+  border-bottom: 1px solid var(--line);
+}
+.hairline {
+  border-color: var(--line);
+}
+.dot-grid {
+  background-image: radial-gradient(rgba(28, 26, 23, 0.09) 1px, transparent 1px);
+  background-size: 18px 18px;
+}
+.scroll-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--paper-3) transparent;
+}
+
+/* ---------------------------------------------------------------- motion */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.rise {
+  animation: rise 420ms var(--ease-out) both;
+}
+@keyframes shades-drop {
+  0% {
+    transform: translateY(-120px);
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.shades-drop {
+  animation: shades-drop 900ms var(--ease-out) 650ms both;
+}
+@keyframes pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 rgba(232, 112, 58, 0.55);
+  }
+  100% {
+    box-shadow: 0 0 0 10px rgba(232, 112, 58, 0);
+  }
+}
+.pulse-ring {
+  animation: pulse-ring 1.4s var(--ease-out) infinite;
+}
+@keyframes blink-caret {
+  50% {
+    opacity: 0;
+  }
+}
+.caret::after {
+  content: "▍";
+  margin-left: 2px;
+  animation: blink-caret 1s steps(1) infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rise,
+  .shades-drop {
+    animation: none;
+  }
+  .pulse-ring {
+    animation: none;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

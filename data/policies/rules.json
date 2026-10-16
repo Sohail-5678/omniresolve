@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "currency": "USD",
+  "families": {
+    "RETURNS_STANDARD": { "title": "Returns", "section": 1, "governingDate": "order_date" },
+    "BILLING_DISPUTES": { "title": "Billing disputes", "section": 2, "governingDate": "claim_date" },
+    "SHIPPING_DELAYS": { "title": "Late and lost deliveries", "section": 3, "governingDate": "order_date" },
+    "DAMAGE_TRANSIT": { "title": "Damage in transit", "section": 4, "governingDate": "order_date" },
+    "GOODWILL_RETENTION": { "title": "Goodwill and retention", "section": 5, "governingDate": "claim_date" },
+    "APPROVAL_AUTHORITY": { "title": "Approval authority and security", "section": 6, "governingDate": "claim_date" }
+  },
+  "paramFormats": {
+    "returnWindowDays": "days",
+    "nonRefundableCategories": "categories",
+    "outOfWindowStoreCreditMaxCents": "money",
+    "duplicateReportWindowDays": "days",
+    "duplicateCaptureWindowHours": "hours",
+    "lateThresholdDays": "days",
+    "lateCreditCents": "money",
+    "lateCreditPct": "percent",
+    "lateCreditMaxCents": "money",
+    "lostAfterDays": "days",
+    "damageReportWindowDays": "days",
+    "evidenceRequiredAboveCents": "money",
+    "goodwillMaxCents": "money",
+    "goodwillCooldownDays": "days",
+    "goodwillTiers": "tiers",
+    "autoRefundLimitCents": "money",
+    "vipAutoLimitCents": "money",
+    "vipTiers": "tiers",
+    "maxRefundsPerResolution": "count"
+  },
+  "displayNames": {
+    "gift_card": "gift cards",
+    "custom_cut_glass": "custom-cut glass",
+    "clearance": "clearance items",
+    "standard": "Standard",
+    "gold": "Gold",
+    "platinum": "Platinum"
+  },
+  "versions": [
+    { "version": "2024.1", "effectiveFrom": "2024-01-01", "effectiveTo": "2024-12-31" },
+    { "version": "2025.1", "effectiveFrom": "2025-01-01", "effectiveTo": "2025-12-31" },
+    { "version": "2026.1", "effectiveFrom": "2026-01-01", "effectiveTo": null }
+  ],
+  "policies": [
+    {
+      "policyId": "RETURNS_STANDARD",
+      "version": "2024.1",
+      "effectiveFrom": "2024-01-01",
+      "effectiveTo": "2024-12-31",
+      "governingDate": "order_date",
+      "params": {
+        "returnWindowDays": 45,
+        "nonRefundableCategories": ["gift_card", "custom_cut_glass", "clearance"],
+        "outOfWindowStoreCreditMaxCents": 1500
+      },
+      "clauseIds": ["§1.4", "§1.5", "§1.6"]
+    },
+    {
+      "policyId": "RETURNS_STANDARD",
+      "version": "2025.1",
+      "effectiveFrom": "2025-01-01",
+      "effectiveTo": "2025-12-31",
+      "governingDate": "order_date",
+      "params": {
+        "returnWindowDays": 90,
+        "nonRefundableCategories": ["gift_card", "custom_cut_glass"],
+        "outOfWindowStoreCreditMaxCents": 2500
+      },
+      "clauseIds": ["§1.4", "§1.5", "§1.6"]
+    },
+    {
+      "policyId": "RETURNS_STANDARD",
+      "version": "2026.1",
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "governingDate": "order_date",
+      "params": {
+        "returnWindowDays": 30,
+        "nonRefundableCategories": ["gift_card", "custom_cut_glass"],
+        "outOfWindowStoreCreditMaxCents": 2500
+      },
+      "clauseIds": ["§1.4", "§1.5", "§1.6"]
+    },
+    {
+      "policyId": "BILLING_DISPUTES",
+      "version": "2024.1",
+      "effectiveFrom": "2024-01-01",
+      "effectiveTo": "2024-12-31",
+      "governingDate": "claim_date",
+      "params": { "duplicateReportWindowDays": 60, "duplicateCaptureWindowHours": 24 },
+      "clauseIds": ["§2.1", "§2.2"]
+    },
+    {
+      "policyId": "BILLING_DISPUTES",
+      "version": "2025.1",
+      "effectiveFrom": "2025-01-01",
+      "effectiveTo": "2025-12-31",
+      "governingDate": "claim_date",
+      "params": { "duplicateReportWindowDays": 90, "duplicateCaptureWindowHours": 24 },
+      "clauseIds": ["§2.1", "§2.2"]
+    },
+    {
+      "policyId": "BILLING_DISPUTES",
+      "version": "2026.1",
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "governingDate": "claim_date",
+      "params": { "duplicateReportWindowDays": 120, "duplicateCaptureWindowHours": 24 },
+      "clauseIds": ["§2.1", "§2.2"]
+    },
+    {
+      "policyId": "SHIPPING_DELAYS",
+      "version": "2024.1",
+      "effectiveFrom": "2024-01-01",
+      "effectiveTo": "2024-12-31",
+      "governingDate": "order_date",
+      "params": {
+        "lateThresholdDays": 3,
+        "lateRemedy": "store_credit_flat",
+        "lateCreditCents": 500,
+        "lostAfterDays": 21
+      },
+      "clauseIds": ["§3.2", "§3.3", "§3.4"]
+    },
+    {
+      "policyId": "SHIPPING_DELAYS",
+      "version": "2025.1",
+      "effectiveFrom": "2025-01-01",
+      "effectiveTo": "2025-12-31",
+      "governingDate": "order_date",
+      "params": {
+        "lateThresholdDays": 2,
+        "lateRemedy": "shipping_refund",
+        "lostAfterDays": 14
+      },
+      "clauseIds": ["§3.2", "§3.3", "§3.4"]
+    },
+    {
+      "policyId": "SHIPPING_DELAYS",
+      "version": "2026.1",
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "governingDate": "order_date",
+      "params": {
+        "lateThresholdDays": 3,
+        "lateRemedy": "store_credit_pct",
+        "lateCreditPct": 10,
+        "lateCreditMaxCents": 2000,
+        "lostAfterDays": 10
+      },
+      "clauseIds": ["§3.2", "§3.3", "§3.4"]
+    },
+    {
+      "policyId": "DAMAGE_TRANSIT",
+      "version": "2024.1",
+      "effectiveFrom": "2024-01-01",
+      "effectiveTo": "2024-12-31",
+      "governingDate": "order_date",
+      "params": {
+        "damageReportWindowDays": 7,
+        "evidenceRequiredAboveCents": 5000,
+        "carrierScanCountsAsEvidence": false,
+        "returnLabelProvided": false,
+        "shippingFeeRefund": false
+      },
+      "clauseIds": ["§4.2", "§4.3"]
+    },
+    {
+      "policyId": "DAMAGE_TRANSIT",
+      "version": "2025.1",
+      "effectiveFrom": "2025-01-01",
+      "effectiveTo": "2025-12-31",
+      "governingDate": "order_date",
+      "params": {
+        "damageReportWindowDays": 14,
+        "evidenceRequiredAboveCents": 10000,
+        "carrierScanCountsAsEvidence": true,
+        "returnLabelProvided": true,
+        "shippingFeeRefund": false
+      },
+      "clauseIds": ["§4.2", "§4.3"]
+    },
+    {
+      "policyId": "DAMAGE_TRANSIT",
+      "version": "2026.1",
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "governingDate": "order_date",
+      "params": {
+        "damageReportWindowDays": 14,
+        "evidenceRequiredAboveCents": 15000,
+        "carrierScanCountsAsEvidence": true,
+        "returnLabelProvided": true,
+        "shippingFeeRefund": true
+      },
+      "clauseIds": ["§4.2", "§4.3"]
+    },
+    {
+      "policyId": "GOODWILL_RETENTION",
+      "version": "2024.1",
+      "effectiveFrom": "2024-01-01",
+      "effectiveTo": "2024-12-31",
+      "governingDate": "claim_date",
+      "params": {
+        "goodwillMaxCents": 1500,
+        "goodwillCooldownDays": 180,
+        "goodwillTiers": ["platinum"],
+        "churnExceptionRequiresHuman": true
+      },
+      "clauseIds": ["§5.2", "§5.3", "§5.6"]
+    },
+    {
+      "policyId": "GOODWILL_RETENTION",
+      "version": "2025.1",
+      "effectiveFrom": "2025-01-01",
+      "effectiveTo": "2025-12-31",
+      "governingDate": "claim_date",
+      "params": {
+        "goodwillMaxCents": 2500,
+        "goodwillCooldownDays": 90,
+        "goodwillTiers": ["standard", "gold", "platinum"],
+        "churnExceptionRequiresHuman": true
+      },
+      "clauseIds": ["§5.2", "§5.3", "§5.6"]
+    },
+    {
+      "policyId": "GOODWILL_RETENTION",
+      "version": "2026.1",
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "governingDate": "claim_date",
+      "params": {
+        "goodwillMaxCents": 2000,
+        "goodwillCooldownDays": 90,
+        "goodwillTiers": ["gold", "platinum"],
+        "churnExceptionRequiresHuman": true
+      },
+      "clauseIds": ["§5.2", "§5.3", "§5.6"]
+    },
+    {
+      "policyId": "APPROVAL_AUTHORITY",
+      "version": "2024.1",
+      "effectiveFrom": "2024-01-01",
+      "effectiveTo": "2024-12-31",
+      "governingDate": "claim_date",
+      "params": {
+        "autoRefundLimitCents": 3000,
+        "vipAutoLimitCents": 7500,
+        "vipTiers": ["platinum"],
+        "maxRefundsPerResolution": 1
+      },
+      "clauseIds": ["§6.1", "§6.2", "§6.4"]
+    },
+    {
+      "policyId": "APPROVAL_AUTHORITY",
+      "version": "2025.1",
+      "effectiveFrom": "2025-01-01",
+      "effectiveTo": "2025-12-31",
+      "governingDate": "claim_date",
+      "params": {
+        "autoRefundLimitCents": 5000,
+        "vipAutoLimitCents": 10000,
+        "vipTiers": ["platinum"],
+        "maxRefundsPerResolution": 1
+      },
+      "clauseIds": ["§6.1", "§6.2", "§6.4"]
+    },
+    {
+      "policyId": "APPROVAL_AUTHORITY",
+      "version": "2026.1",
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "governingDate": "claim_date",
+      "params": {
+        "autoRefundLimitCents": 5000,
+        "vipAutoLimitCents": 10000,
+        "vipTiers": ["platinum"],
+        "maxRefundsPerResolution": 1
+      },
+      "clauseIds": ["§6.1", "§6.2", "§6.4"]
+    }
+  ]
+}

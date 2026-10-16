@@ -1,0 +1,4599 @@
+{
+ "note": "Generated from the deterministic seed (SEED_VERSION in src/lib/seed/generate.ts). Business date 2026-10-16.",
+ "customers": [
+  {
+   "id": "CUS-1001",
+   "name": "Sarah Jenkins",
+   "tier": "platinum",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-9941",
+     "orderDate": "2026-10-02",
+     "promisedDate": "2026-10-08",
+     "deliveredDate": "2026-10-09",
+     "status": "delivered",
+     "totalCents": 32000,
+     "shippingCents": 0,
+     "items": [
+      "1x Aurora tempered glass panel kit [GLS-AUR-01, home_glass] @32000c"
+     ],
+     "captures": 2,
+     "damageScan": true
+    },
+    {
+     "id": "ORD-9712",
+     "orderDate": "2026-06-18",
+     "promisedDate": "2026-06-24",
+     "deliveredDate": "2026-06-23",
+     "status": "delivered",
+     "totalCents": 14500,
+     "shippingCents": 0,
+     "items": [
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-9530",
+     "orderDate": "2025-11-30",
+     "promisedDate": "2025-12-05",
+     "deliveredDate": "2025-12-04",
+     "status": "delivered",
+     "totalCents": 11900,
+     "shippingCents": 0,
+     "items": [
+      "1x Brass table lamp [LGT-BRS-01, lighting] @11900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1002",
+   "name": "Daniel Okafor",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-8820",
+     "orderDate": "2026-10-05",
+     "promisedDate": "2026-10-10",
+     "deliveredDate": "2026-10-11",
+     "status": "delivered",
+     "totalCents": 4100,
+     "shippingCents": 700,
+     "items": [
+      "1x Ceramic pour-over set [KIT-POUR-02, kitchen] @3400c"
+     ],
+     "captures": 1,
+     "damageScan": true
+    }
+   ]
+  },
+  {
+   "id": "CUS-1003",
+   "name": "Priya Raman",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-8821",
+     "orderDate": "2026-10-06",
+     "promisedDate": "2026-10-11",
+     "deliveredDate": "2026-10-12",
+     "status": "delivered",
+     "totalCents": 4300,
+     "shippingCents": 700,
+     "items": [
+      "1x Stoneware mug set (4) [MUG-STN-04, kitchen] @3600c"
+     ],
+     "captures": 1,
+     "damageScan": true
+    }
+   ]
+  },
+  {
+   "id": "CUS-1004",
+   "name": "Tomás Vidal",
+   "tier": "gold",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-8822",
+     "orderDate": "2026-10-07",
+     "promisedDate": "2026-10-11",
+     "deliveredDate": "2026-10-12",
+     "status": "delivered",
+     "totalCents": 5000,
+     "shippingCents": 800,
+     "items": [
+      "1x Cast iron skillet 12in [SKL-CI-12, kitchen] @4200c"
+     ],
+     "captures": 1,
+     "damageScan": true
+    }
+   ]
+  },
+  {
+   "id": "CUS-1005",
+   "name": "Lena Fischer",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-7350",
+     "orderDate": "2026-08-09",
+     "promisedDate": "2026-08-14",
+     "deliveredDate": "2026-08-13",
+     "status": "delivered",
+     "totalCents": 8900,
+     "shippingCents": 0,
+     "items": [
+      "1x Merino throw blanket [TXT-MER-01, textiles] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1006",
+   "name": "Kevin Marsh",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-7721",
+     "orderDate": "2026-09-21",
+     "promisedDate": "2026-09-26",
+     "deliveredDate": "2026-09-25",
+     "status": "delivered",
+     "totalCents": 12900,
+     "shippingCents": 0,
+     "items": [
+      "1x Noise-cancelling headphones [ELC-NCH-01, electronics] @12900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1007",
+   "name": "Alex Rivera",
+   "tier": "gold",
+   "churnFlags": [
+    "mentioned_cancelling"
+   ],
+   "orders": [
+    {
+     "id": "ORD-6610",
+     "orderDate": "2026-10-01",
+     "promisedDate": "2026-10-05",
+     "deliveredDate": "2026-10-04",
+     "status": "delivered",
+     "totalCents": 17900,
+     "shippingCents": 0,
+     "items": [
+      "1x Smart thermostat [ELC-THM-01, electronics] @17900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-6611",
+     "orderDate": "2026-09-12",
+     "promisedDate": "2026-09-17",
+     "deliveredDate": "2026-09-24",
+     "status": "delivered",
+     "totalCents": 7800,
+     "shippingCents": 900,
+     "items": [
+      "2x Folding camp chair [OUT-CHR-02, outdoor] @3450c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-6612",
+     "orderDate": "2026-09-20",
+     "promisedDate": "2026-09-25",
+     "deliveredDate": null,
+     "status": "shipped",
+     "totalCents": 3400,
+     "shippingCents": 600,
+     "items": [
+      "1x Linen apron [TXT-APR-01, textiles] @2800c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-6613",
+     "orderDate": "2026-07-02",
+     "promisedDate": "2026-07-02",
+     "deliveredDate": "2026-07-02",
+     "status": "delivered",
+     "totalCents": 5000,
+     "shippingCents": 0,
+     "items": [
+      "1x Digital gift card $50 [GFT-050, gift_card] @5000c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-6614",
+     "orderDate": "2026-10-10",
+     "promisedDate": "2026-10-15",
+     "deliveredDate": "2026-10-14",
+     "status": "delivered",
+     "totalCents": 11900,
+     "shippingCents": 0,
+     "items": [
+      "1x Brass table lamp [LGT-BRS-01, lighting] @11900c"
+     ],
+     "captures": 2,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1008",
+   "name": "Iris Rahimi",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-2003",
+     "orderDate": "2026-10-14",
+     "promisedDate": "2026-10-19",
+     "deliveredDate": null,
+     "status": "processing",
+     "totalCents": 14500,
+     "shippingCents": 0,
+     "items": [
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2007",
+     "orderDate": "2026-03-13",
+     "promisedDate": "2026-03-20",
+     "deliveredDate": "2026-03-20",
+     "status": "delivered",
+     "totalCents": 5500,
+     "shippingCents": 500,
+     "items": [
+      "1x Digital gift card $50 [GFT-050, gift_card] @5000c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2009",
+     "orderDate": "2026-09-24",
+     "promisedDate": "2026-10-01",
+     "deliveredDate": "2026-09-29",
+     "status": "delivered",
+     "totalCents": 6900,
+     "shippingCents": 0,
+     "items": [
+      "2x Folding camp chair [OUT-CHR-02, outdoor] @3450c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2013",
+     "orderDate": "2026-09-11",
+     "promisedDate": "2026-09-16",
+     "deliveredDate": "2026-09-15",
+     "status": "delivered",
+     "totalCents": 12900,
+     "shippingCents": 0,
+     "items": [
+      "1x Noise-cancelling headphones [ELC-NCH-01, electronics] @12900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2016",
+     "orderDate": "2025-03-24",
+     "promisedDate": "2025-03-31",
+     "deliveredDate": "2025-03-30",
+     "status": "delivered",
+     "totalCents": 9600,
+     "shippingCents": 700,
+     "items": [
+      "1x Stoneware dinner set (12 pc) [DIN-STN-12, kitchen] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2017",
+     "orderDate": "2024-03-10",
+     "promisedDate": "2024-03-16",
+     "deliveredDate": "2024-03-16",
+     "status": "delivered",
+     "totalCents": 23600,
+     "shippingCents": 700,
+     "items": [
+      "1x Bookshelf speaker pair [ELC-SPK-02, electronics] @22900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1009",
+   "name": "Ines Petrov",
+   "tier": "gold",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-2021",
+     "orderDate": "2025-05-29",
+     "promisedDate": "2025-06-04",
+     "deliveredDate": "2025-06-07",
+     "status": "delivered",
+     "totalCents": 33300,
+     "shippingCents": 900,
+     "items": [
+      "1x Smart thermostat [ELC-THM-01, electronics] @17900c",
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2032",
+     "orderDate": "2026-09-04",
+     "promisedDate": "2026-09-08",
+     "deliveredDate": "2026-09-13",
+     "status": "delivered",
+     "totalCents": 1900,
+     "shippingCents": 0,
+     "items": [
+      "1x Clearance glass vase [CLR-VAS-09, clearance] @1900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2040",
+     "orderDate": "2026-09-07",
+     "promisedDate": "2026-09-14",
+     "deliveredDate": "2026-09-12",
+     "status": "delivered",
+     "totalCents": 6100,
+     "shippingCents": 900,
+     "items": [
+      "2x Solar lantern [OUT-LNT-01, outdoor] @2600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2045",
+     "orderDate": "2026-03-17",
+     "promisedDate": "2026-03-24",
+     "deliveredDate": "2026-03-23",
+     "status": "delivered",
+     "totalCents": 8900,
+     "shippingCents": 0,
+     "items": [
+      "1x Stoneware dinner set (12 pc) [DIN-STN-12, kitchen] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2049",
+     "orderDate": "2024-10-07",
+     "promisedDate": "2024-10-14",
+     "deliveredDate": "2024-10-12",
+     "status": "delivered",
+     "totalCents": 8650,
+     "shippingCents": 0,
+     "items": [
+      "1x Folding camp chair [OUT-CHR-02, outdoor] @3450c",
+      "2x Solar lantern [OUT-LNT-01, outdoor] @2600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2058",
+     "orderDate": "2024-06-08",
+     "promisedDate": "2024-06-13",
+     "deliveredDate": "2024-06-12",
+     "status": "delivered",
+     "totalCents": 9400,
+     "shippingCents": 0,
+     "items": [
+      "1x Rattan pendant light [LGT-PND-03, lighting] @9400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1010",
+   "name": "Maya Kerrigan",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-2071",
+     "orderDate": "2026-09-02",
+     "promisedDate": "2026-09-07",
+     "deliveredDate": "2026-09-05",
+     "status": "delivered",
+     "totalCents": 3900,
+     "shippingCents": 500,
+     "items": [
+      "1x Ceramic pour-over set [KIT-POUR-02, kitchen] @3400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2074",
+     "orderDate": "2024-03-17",
+     "promisedDate": "2024-03-21",
+     "deliveredDate": "2024-03-25",
+     "status": "delivered",
+     "totalCents": 17900,
+     "shippingCents": 0,
+     "items": [
+      "1x Smart thermostat [ELC-THM-01, electronics] @17900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2075",
+     "orderDate": "2026-10-01",
+     "promisedDate": "2026-10-05",
+     "deliveredDate": "2026-10-05",
+     "status": "delivered",
+     "totalCents": 2800,
+     "shippingCents": 0,
+     "items": [
+      "1x Linen apron [TXT-APR-01, textiles] @2800c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2077",
+     "orderDate": "2025-01-11",
+     "promisedDate": "2025-01-16",
+     "deliveredDate": "2025-01-16",
+     "status": "delivered",
+     "totalCents": 6100,
+     "shippingCents": 900,
+     "items": [
+      "2x Solar lantern [OUT-LNT-01, outdoor] @2600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2082",
+     "orderDate": "2026-09-27",
+     "promisedDate": "2026-10-02",
+     "deliveredDate": "2026-09-30",
+     "status": "delivered",
+     "totalCents": 21900,
+     "shippingCents": 0,
+     "items": [
+      "1x Custom-cut glass shelf [GLS-CUT-07, custom_cut_glass] @12500c",
+      "1x Rattan pendant light [LGT-PND-03, lighting] @9400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2089",
+     "orderDate": "2025-12-18",
+     "promisedDate": "2025-12-25",
+     "deliveredDate": "2025-12-23",
+     "status": "delivered",
+     "totalCents": 4300,
+     "shippingCents": 700,
+     "items": [
+      "1x Stoneware mug set (4) [MUG-STN-04, kitchen] @3600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2098",
+     "orderDate": "2025-08-31",
+     "promisedDate": "2025-09-04",
+     "deliveredDate": "2025-09-02",
+     "status": "delivered",
+     "totalCents": 1900,
+     "shippingCents": 0,
+     "items": [
+      "1x Clearance glass vase [CLR-VAS-09, clearance] @1900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2102",
+     "orderDate": "2026-09-24",
+     "promisedDate": "2026-09-28",
+     "deliveredDate": "2026-09-27",
+     "status": "delivered",
+     "totalCents": 4900,
+     "shippingCents": 700,
+     "items": [
+      "1x Cast iron skillet 12in [SKL-CI-12, kitchen] @4200c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2113",
+     "orderDate": "2026-09-12",
+     "promisedDate": "2026-09-19",
+     "deliveredDate": "2026-09-17",
+     "status": "delivered",
+     "totalCents": 22900,
+     "shippingCents": 0,
+     "items": [
+      "1x Bookshelf speaker pair [ELC-SPK-02, electronics] @22900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1011",
+   "name": "Ravi Ibarra",
+   "tier": "platinum",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-2121",
+     "orderDate": "2026-09-02",
+     "promisedDate": "2026-09-09",
+     "deliveredDate": "2026-09-12",
+     "status": "delivered",
+     "totalCents": 13400,
+     "shippingCents": 900,
+     "items": [
+      "1x Stoneware mug set (4) [MUG-STN-04, kitchen] @3600c",
+      "1x Merino throw blanket [TXT-MER-01, textiles] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2132",
+     "orderDate": "2026-08-17",
+     "promisedDate": "2026-08-21",
+     "deliveredDate": "2026-08-20",
+     "status": "delivered",
+     "totalCents": 3600,
+     "shippingCents": 0,
+     "items": [
+      "1x Stoneware mug set (4) [MUG-STN-04, kitchen] @3600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2135",
+     "orderDate": "2026-04-27",
+     "promisedDate": "2026-05-04",
+     "deliveredDate": "2026-05-03",
+     "status": "delivered",
+     "totalCents": 12900,
+     "shippingCents": 0,
+     "items": [
+      "1x Noise-cancelling headphones [ELC-NCH-01, electronics] @12900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2142",
+     "orderDate": "2026-02-13",
+     "promisedDate": "2026-02-18",
+     "deliveredDate": "2026-02-18",
+     "status": "delivered",
+     "totalCents": 3450,
+     "shippingCents": 0,
+     "items": [
+      "1x Folding camp chair [OUT-CHR-02, outdoor] @3450c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2148",
+     "orderDate": "2025-09-20",
+     "promisedDate": "2025-09-24",
+     "deliveredDate": "2025-09-22",
+     "status": "delivered",
+     "totalCents": 4150,
+     "shippingCents": 700,
+     "items": [
+      "1x Folding camp chair [OUT-CHR-02, outdoor] @3450c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2154",
+     "orderDate": "2024-02-28",
+     "promisedDate": "2024-03-04",
+     "deliveredDate": "2024-03-03",
+     "status": "delivered",
+     "totalCents": 3100,
+     "shippingCents": 500,
+     "items": [
+      "1x Solar lantern [OUT-LNT-01, outdoor] @2600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2159",
+     "orderDate": "2025-10-06",
+     "promisedDate": "2025-10-11",
+     "deliveredDate": "2025-10-10",
+     "status": "delivered",
+     "totalCents": 7800,
+     "shippingCents": 0,
+     "items": [
+      "3x Solar lantern [OUT-LNT-01, outdoor] @2600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1012",
+   "name": "Tariq Whitfield",
+   "tier": "platinum",
+   "churnFlags": [
+    "support_contacts_high"
+   ],
+   "orders": [
+    {
+     "id": "ORD-2170",
+     "orderDate": "2026-09-15",
+     "promisedDate": "2026-09-21",
+     "deliveredDate": "2026-09-21",
+     "status": "delivered",
+     "totalCents": 13400,
+     "shippingCents": 500,
+     "items": [
+      "1x Noise-cancelling headphones [ELC-NCH-01, electronics] @12900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2177",
+     "orderDate": "2026-10-12",
+     "promisedDate": "2026-10-16",
+     "deliveredDate": null,
+     "status": "shipped",
+     "totalCents": 7600,
+     "shippingCents": 700,
+     "items": [
+      "1x Digital gift card $50 [GFT-050, gift_card] @5000c",
+      "1x Clearance glass vase [CLR-VAS-09, clearance] @1900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2182",
+     "orderDate": "2026-09-23",
+     "promisedDate": "2026-09-27",
+     "deliveredDate": "2026-09-26",
+     "status": "delivered",
+     "totalCents": 11900,
+     "shippingCents": 0,
+     "items": [
+      "1x Brass table lamp [LGT-BRS-01, lighting] @11900c"
+     ],
+     "captures": 1,
+     "damageScan": true
+    }
+   ]
+  },
+  {
+   "id": "CUS-1013",
+   "name": "Sam Rourke",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-2184",
+     "orderDate": "2026-09-26",
+     "promisedDate": "2026-10-03",
+     "deliveredDate": "2026-10-02",
+     "status": "delivered",
+     "totalCents": 4300,
+     "shippingCents": 700,
+     "items": [
+      "1x Stoneware mug set (4) [MUG-STN-04, kitchen] @3600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2186",
+     "orderDate": "2026-09-25",
+     "promisedDate": "2026-10-02",
+     "deliveredDate": "2026-09-30",
+     "status": "delivered",
+     "totalCents": 4300,
+     "shippingCents": 700,
+     "items": [
+      "1x Stoneware mug set (4) [MUG-STN-04, kitchen] @3600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2191",
+     "orderDate": "2026-09-22",
+     "promisedDate": "2026-09-27",
+     "deliveredDate": "2026-09-26",
+     "status": "delivered",
+     "totalCents": 13200,
+     "shippingCents": 700,
+     "items": [
+      "1x Custom-cut glass shelf [GLS-CUT-07, custom_cut_glass] @12500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2202",
+     "orderDate": "2026-08-20",
+     "promisedDate": "2026-08-27",
+     "deliveredDate": "2026-08-31",
+     "status": "delivered",
+     "totalCents": 18000,
+     "shippingCents": 900,
+     "items": [
+      "1x Noise-cancelling headphones [ELC-NCH-01, electronics] @12900c",
+      "1x Cast iron skillet 12in [SKL-CI-12, kitchen] @4200c"
+     ],
+     "captures": 1,
+     "damageScan": true
+    }
+   ]
+  },
+  {
+   "id": "CUS-1014",
+   "name": "Leila Duarte",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-2210",
+     "orderDate": "2025-03-24",
+     "promisedDate": "2025-03-30",
+     "deliveredDate": "2025-04-02",
+     "status": "delivered",
+     "totalCents": 7800,
+     "shippingCents": 900,
+     "items": [
+      "2x Folding camp chair [OUT-CHR-02, outdoor] @3450c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2217",
+     "orderDate": "2026-10-09",
+     "promisedDate": "2026-10-13",
+     "deliveredDate": "2026-10-11",
+     "status": "delivered",
+     "totalCents": 9400,
+     "shippingCents": 0,
+     "items": [
+      "1x Rattan pendant light [LGT-PND-03, lighting] @9400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2221",
+     "orderDate": "2026-04-01",
+     "promisedDate": "2026-04-08",
+     "deliveredDate": "2026-04-08",
+     "status": "delivered",
+     "totalCents": 18800,
+     "shippingCents": 900,
+     "items": [
+      "1x Smart thermostat [ELC-THM-01, electronics] @17900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2234",
+     "orderDate": "2026-09-20",
+     "promisedDate": "2026-09-24",
+     "deliveredDate": "2026-09-24",
+     "status": "delivered",
+     "totalCents": 17200,
+     "shippingCents": 700,
+     "items": [
+      "1x Stoneware mug set (4) [MUG-STN-04, kitchen] @3600c",
+      "1x Noise-cancelling headphones [ELC-NCH-01, electronics] @12900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1015",
+   "name": "Bram Delacroix",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-2239",
+     "orderDate": "2026-05-05",
+     "promisedDate": "2026-05-09",
+     "deliveredDate": "2026-05-09",
+     "status": "delivered",
+     "totalCents": 16800,
+     "shippingCents": 700,
+     "items": [
+      "1x Brass table lamp [LGT-BRS-01, lighting] @11900c",
+      "1x Cast iron skillet 12in [SKL-CI-12, kitchen] @4200c"
+     ],
+     "captures": 1,
+     "damageScan": true
+    },
+    {
+     "id": "ORD-2249",
+     "orderDate": "2026-09-09",
+     "promisedDate": "2026-09-15",
+     "deliveredDate": "2026-09-13",
+     "status": "delivered",
+     "totalCents": 3300,
+     "shippingCents": 500,
+     "items": [
+      "1x Linen apron [TXT-APR-01, textiles] @2800c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2255",
+     "orderDate": "2026-06-21",
+     "promisedDate": "2026-06-25",
+     "deliveredDate": "2026-06-24",
+     "status": "delivered",
+     "totalCents": 9400,
+     "shippingCents": 0,
+     "items": [
+      "1x Rattan pendant light [LGT-PND-03, lighting] @9400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2267",
+     "orderDate": "2024-04-11",
+     "promisedDate": "2024-04-18",
+     "deliveredDate": "2024-04-17",
+     "status": "delivered",
+     "totalCents": 4900,
+     "shippingCents": 700,
+     "items": [
+      "1x Cast iron skillet 12in [SKL-CI-12, kitchen] @4200c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2277",
+     "orderDate": "2025-05-30",
+     "promisedDate": "2025-06-05",
+     "deliveredDate": "2025-06-03",
+     "status": "delivered",
+     "totalCents": 8900,
+     "shippingCents": 0,
+     "items": [
+      "1x Merino throw blanket [TXT-MER-01, textiles] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2278",
+     "orderDate": "2026-09-24",
+     "promisedDate": "2026-09-28",
+     "deliveredDate": "2026-09-28",
+     "status": "delivered",
+     "totalCents": 5700,
+     "shippingCents": 700,
+     "items": [
+      "1x Digital gift card $50 [GFT-050, gift_card] @5000c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1016",
+   "name": "Theo Lindqvist",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-2291",
+     "orderDate": "2025-01-09",
+     "promisedDate": "2025-01-15",
+     "deliveredDate": "2025-01-13",
+     "status": "delivered",
+     "totalCents": 9800,
+     "shippingCents": 900,
+     "items": [
+      "1x Merino throw blanket [TXT-MER-01, textiles] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2296",
+     "orderDate": "2026-07-29",
+     "promisedDate": "2026-08-03",
+     "deliveredDate": "2026-08-01",
+     "status": "delivered",
+     "totalCents": 9500,
+     "shippingCents": 900,
+     "items": [
+      "1x Digital gift card $50 [GFT-050, gift_card] @5000c",
+      "1x Stoneware mug set (4) [MUG-STN-04, kitchen] @3600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2302",
+     "orderDate": "2026-10-10",
+     "promisedDate": "2026-10-16",
+     "deliveredDate": "2026-10-15",
+     "status": "delivered",
+     "totalCents": 26400,
+     "shippingCents": 0,
+     "items": [
+      "1x Brass table lamp [LGT-BRS-01, lighting] @11900c",
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2307",
+     "orderDate": "2026-10-04",
+     "promisedDate": "2026-10-11",
+     "deliveredDate": "2026-10-09",
+     "status": "delivered",
+     "totalCents": 9900,
+     "shippingCents": 500,
+     "items": [
+      "1x Rattan pendant light [LGT-PND-03, lighting] @9400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2310",
+     "orderDate": "2026-04-13",
+     "promisedDate": "2026-04-20",
+     "deliveredDate": "2026-04-18",
+     "status": "delivered",
+     "totalCents": 4200,
+     "shippingCents": 0,
+     "items": [
+      "1x Cast iron skillet 12in [SKL-CI-12, kitchen] @4200c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2311",
+     "orderDate": "2025-07-20",
+     "promisedDate": "2025-07-26",
+     "deliveredDate": "2025-07-30",
+     "status": "delivered",
+     "totalCents": 15400,
+     "shippingCents": 900,
+     "items": [
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2321",
+     "orderDate": "2026-09-19",
+     "promisedDate": "2026-09-26",
+     "deliveredDate": "2026-09-24",
+     "status": "delivered",
+     "totalCents": 4100,
+     "shippingCents": 500,
+     "items": [
+      "1x Stoneware mug set (4) [MUG-STN-04, kitchen] @3600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2334",
+     "orderDate": "2025-08-17",
+     "promisedDate": "2025-08-22",
+     "deliveredDate": "2025-08-20",
+     "status": "delivered",
+     "totalCents": 7000,
+     "shippingCents": 0,
+     "items": [
+      "1x Stoneware mug set (4) [MUG-STN-04, kitchen] @3600c",
+      "1x Ceramic pour-over set [KIT-POUR-02, kitchen] @3400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1017",
+   "name": "Rosa Ferreira",
+   "tier": "gold",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-2340",
+     "orderDate": "2025-02-14",
+     "promisedDate": "2025-02-19",
+     "deliveredDate": "2025-02-18",
+     "status": "delivered",
+     "totalCents": 2600,
+     "shippingCents": 700,
+     "items": [
+      "1x Clearance glass vase [CLR-VAS-09, clearance] @1900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2343",
+     "orderDate": "2026-09-17",
+     "promisedDate": "2026-09-24",
+     "deliveredDate": "2026-09-24",
+     "status": "delivered",
+     "totalCents": 12500,
+     "shippingCents": 0,
+     "items": [
+      "1x Custom-cut glass shelf [GLS-CUT-07, custom_cut_glass] @12500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2349",
+     "orderDate": "2025-01-12",
+     "promisedDate": "2025-01-19",
+     "deliveredDate": "2025-01-17",
+     "status": "delivered",
+     "totalCents": 9400,
+     "shippingCents": 0,
+     "items": [
+      "1x Rattan pendant light [LGT-PND-03, lighting] @9400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2353",
+     "orderDate": "2026-09-26",
+     "promisedDate": "2026-09-30",
+     "deliveredDate": "2026-09-30",
+     "status": "delivered",
+     "totalCents": 2800,
+     "shippingCents": 0,
+     "items": [
+      "1x Linen apron [TXT-APR-01, textiles] @2800c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1018",
+   "name": "Lior Petrov",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-2366",
+     "orderDate": "2026-09-10",
+     "promisedDate": "2026-09-16",
+     "deliveredDate": "2026-09-14",
+     "status": "delivered",
+     "totalCents": 3950,
+     "shippingCents": 500,
+     "items": [
+      "1x Folding camp chair [OUT-CHR-02, outdoor] @3450c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2379",
+     "orderDate": "2026-09-01",
+     "promisedDate": "2026-09-07",
+     "deliveredDate": "2026-09-06",
+     "status": "delivered",
+     "totalCents": 7800,
+     "shippingCents": 0,
+     "items": [
+      "3x Solar lantern [OUT-LNT-01, outdoor] @2600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2388",
+     "orderDate": "2026-10-08",
+     "promisedDate": "2026-10-12",
+     "deliveredDate": "2026-10-11",
+     "status": "delivered",
+     "totalCents": 4300,
+     "shippingCents": 700,
+     "items": [
+      "1x Stoneware mug set (4) [MUG-STN-04, kitchen] @3600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2395",
+     "orderDate": "2026-09-26",
+     "promisedDate": "2026-10-02",
+     "deliveredDate": "2026-10-01",
+     "status": "delivered",
+     "totalCents": 7800,
+     "shippingCents": 0,
+     "items": [
+      "3x Solar lantern [OUT-LNT-01, outdoor] @2600c"
+     ],
+     "captures": 1,
+     "damageScan": true
+    }
+   ]
+  },
+  {
+   "id": "CUS-1019",
+   "name": "Maya Varga",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-2399",
+     "orderDate": "2024-04-07",
+     "promisedDate": "2024-04-11",
+     "deliveredDate": "2024-04-09",
+     "status": "delivered",
+     "totalCents": 8900,
+     "shippingCents": 0,
+     "items": [
+      "1x Merino throw blanket [TXT-MER-01, textiles] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": true
+    },
+    {
+     "id": "ORD-2406",
+     "orderDate": "2026-05-28",
+     "promisedDate": "2026-06-04",
+     "deliveredDate": "2026-06-07",
+     "status": "delivered",
+     "totalCents": 13800,
+     "shippingCents": 900,
+     "items": [
+      "1x Noise-cancelling headphones [ELC-NCH-01, electronics] @12900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2408",
+     "orderDate": "2026-05-09",
+     "promisedDate": "2026-05-14",
+     "deliveredDate": "2026-05-12",
+     "status": "delivered",
+     "totalCents": 6900,
+     "shippingCents": 0,
+     "items": [
+      "2x Folding camp chair [OUT-CHR-02, outdoor] @3450c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2414",
+     "orderDate": "2025-05-01",
+     "promisedDate": "2025-05-07",
+     "deliveredDate": "2025-05-07",
+     "status": "delivered",
+     "totalCents": 19800,
+     "shippingCents": 0,
+     "items": [
+      "1x Clearance glass vase [CLR-VAS-09, clearance] @1900c",
+      "1x Smart thermostat [ELC-THM-01, electronics] @17900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2425",
+     "orderDate": "2026-10-06",
+     "promisedDate": "2026-10-13",
+     "deliveredDate": "2026-10-15",
+     "status": "delivered",
+     "totalCents": 3400,
+     "shippingCents": 0,
+     "items": [
+      "1x Ceramic pour-over set [KIT-POUR-02, kitchen] @3400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2438",
+     "orderDate": "2024-03-21",
+     "promisedDate": "2024-03-28",
+     "deliveredDate": "2024-03-26",
+     "status": "delivered",
+     "totalCents": 7800,
+     "shippingCents": 0,
+     "items": [
+      "3x Solar lantern [OUT-LNT-01, outdoor] @2600c"
+     ],
+     "captures": 2,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2448",
+     "orderDate": "2026-06-23",
+     "promisedDate": "2026-06-27",
+     "deliveredDate": "2026-06-25",
+     "status": "delivered",
+     "totalCents": 10300,
+     "shippingCents": 900,
+     "items": [
+      "1x Rattan pendant light [LGT-PND-03, lighting] @9400c"
+     ],
+     "captures": 1,
+     "damageScan": true
+    },
+    {
+     "id": "ORD-2455",
+     "orderDate": "2026-04-29",
+     "promisedDate": "2026-05-05",
+     "deliveredDate": "2026-05-04",
+     "status": "delivered",
+     "totalCents": 3300,
+     "shippingCents": 500,
+     "items": [
+      "1x Linen apron [TXT-APR-01, textiles] @2800c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2466",
+     "orderDate": "2026-02-09",
+     "promisedDate": "2026-02-15",
+     "deliveredDate": "2026-02-13",
+     "status": "delivered",
+     "totalCents": 13600,
+     "shippingCents": 700,
+     "items": [
+      "1x Noise-cancelling headphones [ELC-NCH-01, electronics] @12900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1020",
+   "name": "Elliot Brennan",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-2468",
+     "orderDate": "2026-09-16",
+     "promisedDate": "2026-09-20",
+     "deliveredDate": "2026-09-19",
+     "status": "delivered",
+     "totalCents": 8900,
+     "shippingCents": 0,
+     "items": [
+      "1x Stoneware dinner set (12 pc) [DIN-STN-12, kitchen] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2470",
+     "orderDate": "2026-07-29",
+     "promisedDate": "2026-08-05",
+     "deliveredDate": "2026-08-03",
+     "status": "delivered",
+     "totalCents": 9400,
+     "shippingCents": 500,
+     "items": [
+      "1x Merino throw blanket [TXT-MER-01, textiles] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2478",
+     "orderDate": "2026-06-08",
+     "promisedDate": "2026-06-14",
+     "deliveredDate": "2026-06-18",
+     "status": "delivered",
+     "totalCents": 23400,
+     "shippingCents": 500,
+     "items": [
+      "1x Bookshelf speaker pair [ELC-SPK-02, electronics] @22900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2486",
+     "orderDate": "2026-09-02",
+     "promisedDate": "2026-09-08",
+     "deliveredDate": "2026-09-07",
+     "status": "delivered",
+     "totalCents": 15200,
+     "shippingCents": 700,
+     "items": [
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2495",
+     "orderDate": "2025-06-26",
+     "promisedDate": "2025-07-02",
+     "deliveredDate": "2025-07-02",
+     "status": "delivered",
+     "totalCents": 13800,
+     "shippingCents": 900,
+     "items": [
+      "1x Noise-cancelling headphones [ELC-NCH-01, electronics] @12900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2500",
+     "orderDate": "2024-08-18",
+     "promisedDate": "2024-08-24",
+     "deliveredDate": "2024-08-23",
+     "status": "delivered",
+     "totalCents": 23400,
+     "shippingCents": 500,
+     "items": [
+      "1x Bookshelf speaker pair [ELC-SPK-02, electronics] @22900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2510",
+     "orderDate": "2026-09-19",
+     "promisedDate": "2026-09-26",
+     "deliveredDate": "2026-09-24",
+     "status": "delivered",
+     "totalCents": 2800,
+     "shippingCents": 0,
+     "items": [
+      "1x Linen apron [TXT-APR-01, textiles] @2800c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2514",
+     "orderDate": "2026-04-11",
+     "promisedDate": "2026-04-15",
+     "deliveredDate": "2026-04-13",
+     "status": "delivered",
+     "totalCents": 12900,
+     "shippingCents": 0,
+     "items": [
+      "1x Noise-cancelling headphones [ELC-NCH-01, electronics] @12900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2516",
+     "orderDate": "2024-08-31",
+     "promisedDate": "2024-09-04",
+     "deliveredDate": "2024-09-02",
+     "status": "delivered",
+     "totalCents": 26400,
+     "shippingCents": 700,
+     "items": [
+      "1x Bookshelf speaker pair [ELC-SPK-02, electronics] @22900c",
+      "1x Linen apron [TXT-APR-01, textiles] @2800c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1021",
+   "name": "Jonah Hadley",
+   "tier": "gold",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-2525",
+     "orderDate": "2026-04-17",
+     "promisedDate": "2026-04-24",
+     "deliveredDate": "2026-04-30",
+     "status": "delivered",
+     "totalCents": 10350,
+     "shippingCents": 0,
+     "items": [
+      "3x Folding camp chair [OUT-CHR-02, outdoor] @3450c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2530",
+     "orderDate": "2024-08-18",
+     "promisedDate": "2024-08-24",
+     "deliveredDate": "2024-08-24",
+     "status": "delivered",
+     "totalCents": 1900,
+     "shippingCents": 0,
+     "items": [
+      "1x Clearance glass vase [CLR-VAS-09, clearance] @1900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2538",
+     "orderDate": "2026-07-14",
+     "promisedDate": "2026-07-21",
+     "deliveredDate": "2026-07-27",
+     "status": "delivered",
+     "totalCents": 10300,
+     "shippingCents": 900,
+     "items": [
+      "1x Rattan pendant light [LGT-PND-03, lighting] @9400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2551",
+     "orderDate": "2024-11-26",
+     "promisedDate": "2024-12-01",
+     "deliveredDate": "2024-11-30",
+     "status": "delivered",
+     "totalCents": 9400,
+     "shippingCents": 0,
+     "items": [
+      "1x Rattan pendant light [LGT-PND-03, lighting] @9400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2560",
+     "orderDate": "2026-08-17",
+     "promisedDate": "2026-08-22",
+     "deliveredDate": "2026-08-21",
+     "status": "delivered",
+     "totalCents": 13200,
+     "shippingCents": 700,
+     "items": [
+      "1x Custom-cut glass shelf [GLS-CUT-07, custom_cut_glass] @12500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1022",
+   "name": "Rosa Lindqvist",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-2571",
+     "orderDate": "2026-05-03",
+     "promisedDate": "2026-05-10",
+     "deliveredDate": "2026-05-08",
+     "status": "delivered",
+     "totalCents": 4150,
+     "shippingCents": 700,
+     "items": [
+      "1x Folding camp chair [OUT-CHR-02, outdoor] @3450c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2575",
+     "orderDate": "2026-09-09",
+     "promisedDate": "2026-09-14",
+     "deliveredDate": "2026-09-13",
+     "status": "delivered",
+     "totalCents": 8700,
+     "shippingCents": 900,
+     "items": [
+      "3x Solar lantern [OUT-LNT-01, outdoor] @2600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2584",
+     "orderDate": "2026-09-17",
+     "promisedDate": "2026-09-24",
+     "deliveredDate": "2026-09-22",
+     "status": "delivered",
+     "totalCents": 16300,
+     "shippingCents": 0,
+     "items": [
+      "1x Ceramic pour-over set [KIT-POUR-02, kitchen] @3400c",
+      "1x Noise-cancelling headphones [ELC-NCH-01, electronics] @12900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2593",
+     "orderDate": "2026-09-05",
+     "promisedDate": "2026-09-11",
+     "deliveredDate": "2026-09-11",
+     "status": "delivered",
+     "totalCents": 17600,
+     "shippingCents": 700,
+     "items": [
+      "1x Brass table lamp [LGT-BRS-01, lighting] @11900c",
+      "1x Digital gift card $50 [GFT-050, gift_card] @5000c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2594",
+     "orderDate": "2024-06-20",
+     "promisedDate": "2024-06-24",
+     "deliveredDate": "2024-06-24",
+     "status": "delivered",
+     "totalCents": 12600,
+     "shippingCents": 700,
+     "items": [
+      "1x Brass table lamp [LGT-BRS-01, lighting] @11900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2597",
+     "orderDate": "2026-09-03",
+     "promisedDate": "2026-09-08",
+     "deliveredDate": "2026-09-06",
+     "status": "delivered",
+     "totalCents": 8900,
+     "shippingCents": 0,
+     "items": [
+      "1x Merino throw blanket [TXT-MER-01, textiles] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1023",
+   "name": "Marcus Holloway",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-2601",
+     "orderDate": "2024-05-29",
+     "promisedDate": "2024-06-05",
+     "deliveredDate": "2024-06-03",
+     "status": "delivered",
+     "totalCents": 12500,
+     "shippingCents": 0,
+     "items": [
+      "1x Custom-cut glass shelf [GLS-CUT-07, custom_cut_glass] @12500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2603",
+     "orderDate": "2024-03-04",
+     "promisedDate": "2024-03-08",
+     "deliveredDate": "2024-03-07",
+     "status": "delivered",
+     "totalCents": 15400,
+     "shippingCents": 900,
+     "items": [
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c"
+     ],
+     "captures": 1,
+     "damageScan": true
+    },
+    {
+     "id": "ORD-2615",
+     "orderDate": "2025-02-15",
+     "promisedDate": "2025-02-22",
+     "deliveredDate": "2025-02-22",
+     "status": "delivered",
+     "totalCents": 3400,
+     "shippingCents": 0,
+     "items": [
+      "1x Ceramic pour-over set [KIT-POUR-02, kitchen] @3400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2620",
+     "orderDate": "2024-06-09",
+     "promisedDate": "2024-06-16",
+     "deliveredDate": "2024-06-16",
+     "status": "delivered",
+     "totalCents": 9600,
+     "shippingCents": 700,
+     "items": [
+      "1x Merino throw blanket [TXT-MER-01, textiles] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2633",
+     "orderDate": "2024-09-27",
+     "promisedDate": "2024-10-02",
+     "deliveredDate": "2024-10-06",
+     "status": "delivered",
+     "totalCents": 13800,
+     "shippingCents": 900,
+     "items": [
+      "1x Noise-cancelling headphones [ELC-NCH-01, electronics] @12900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2639",
+     "orderDate": "2026-08-05",
+     "promisedDate": "2026-08-12",
+     "deliveredDate": "2026-08-11",
+     "status": "delivered",
+     "totalCents": 18300,
+     "shippingCents": 0,
+     "items": [
+      "1x Stoneware dinner set (12 pc) [DIN-STN-12, kitchen] @8900c",
+      "1x Rattan pendant light [LGT-PND-03, lighting] @9400c"
+     ],
+     "captures": 1,
+     "damageScan": true
+    },
+    {
+     "id": "ORD-2651",
+     "orderDate": "2025-11-09",
+     "promisedDate": "2025-11-14",
+     "deliveredDate": "2025-11-13",
+     "status": "delivered",
+     "totalCents": 23600,
+     "shippingCents": 700,
+     "items": [
+      "1x Bookshelf speaker pair [ELC-SPK-02, electronics] @22900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1024",
+   "name": "Yara Petrov",
+   "tier": "platinum",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-2659",
+     "orderDate": "2024-04-29",
+     "promisedDate": "2024-05-06",
+     "deliveredDate": "2024-05-06",
+     "status": "delivered",
+     "totalCents": 4700,
+     "shippingCents": 500,
+     "items": [
+      "1x Cast iron skillet 12in [SKL-CI-12, kitchen] @4200c"
+     ],
+     "captures": 1,
+     "damageScan": true
+    },
+    {
+     "id": "ORD-2664",
+     "orderDate": "2026-08-20",
+     "promisedDate": "2026-08-25",
+     "deliveredDate": "2026-08-25",
+     "status": "delivered",
+     "totalCents": 18600,
+     "shippingCents": 700,
+     "items": [
+      "1x Smart thermostat [ELC-THM-01, electronics] @17900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2673",
+     "orderDate": "2024-09-23",
+     "promisedDate": "2024-09-30",
+     "deliveredDate": "2024-09-28",
+     "status": "delivered",
+     "totalCents": 15400,
+     "shippingCents": 900,
+     "items": [
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2674",
+     "orderDate": "2026-09-19",
+     "promisedDate": "2026-09-24",
+     "deliveredDate": "2026-09-24",
+     "status": "delivered",
+     "totalCents": 7600,
+     "shippingCents": 700,
+     "items": [
+      "1x Clearance glass vase [CLR-VAS-09, clearance] @1900c",
+      "1x Digital gift card $50 [GFT-050, gift_card] @5000c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2685",
+     "orderDate": "2026-10-04",
+     "promisedDate": "2026-10-09",
+     "deliveredDate": "2026-10-14",
+     "status": "delivered",
+     "totalCents": 2800,
+     "shippingCents": 0,
+     "items": [
+      "1x Linen apron [TXT-APR-01, textiles] @2800c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2694",
+     "orderDate": "2025-04-17",
+     "promisedDate": "2025-04-22",
+     "deliveredDate": "2025-04-21",
+     "status": "delivered",
+     "totalCents": 5700,
+     "shippingCents": 700,
+     "items": [
+      "1x Digital gift card $50 [GFT-050, gift_card] @5000c"
+     ],
+     "captures": 1,
+     "damageScan": true
+    },
+    {
+     "id": "ORD-2698",
+     "orderDate": "2024-12-25",
+     "promisedDate": "2024-12-30",
+     "deliveredDate": "2024-12-30",
+     "status": "delivered",
+     "totalCents": 9800,
+     "shippingCents": 900,
+     "items": [
+      "1x Merino throw blanket [TXT-MER-01, textiles] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2699",
+     "orderDate": "2026-09-13",
+     "promisedDate": "2026-09-20",
+     "deliveredDate": "2026-09-18",
+     "status": "delivered",
+     "totalCents": 21200,
+     "shippingCents": 500,
+     "items": [
+      "1x Linen apron [TXT-APR-01, textiles] @2800c",
+      "1x Smart thermostat [ELC-THM-01, electronics] @17900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1025",
+   "name": "Arjun Osei",
+   "tier": "platinum",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-2702",
+     "orderDate": "2026-09-12",
+     "promisedDate": "2026-09-18",
+     "deliveredDate": "2026-09-16",
+     "status": "delivered",
+     "totalCents": 18600,
+     "shippingCents": 700,
+     "items": [
+      "1x Smart thermostat [ELC-THM-01, electronics] @17900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2706",
+     "orderDate": "2026-05-16",
+     "promisedDate": "2026-05-23",
+     "deliveredDate": "2026-05-22",
+     "status": "delivered",
+     "totalCents": 3600,
+     "shippingCents": 0,
+     "items": [
+      "1x Stoneware mug set (4) [MUG-STN-04, kitchen] @3600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2718",
+     "orderDate": "2026-09-12",
+     "promisedDate": "2026-09-18",
+     "deliveredDate": "2026-09-18",
+     "status": "delivered",
+     "totalCents": 10300,
+     "shippingCents": 900,
+     "items": [
+      "1x Rattan pendant light [LGT-PND-03, lighting] @9400c"
+     ],
+     "captures": 1,
+     "damageScan": true
+    },
+    {
+     "id": "ORD-2727",
+     "orderDate": "2024-02-23",
+     "promisedDate": "2024-03-01",
+     "deliveredDate": "2024-02-28",
+     "status": "delivered",
+     "totalCents": 2800,
+     "shippingCents": 0,
+     "items": [
+      "1x Linen apron [TXT-APR-01, textiles] @2800c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1026",
+   "name": "Marcus Rourke",
+   "tier": "gold",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-2739",
+     "orderDate": "2026-01-06",
+     "promisedDate": "2026-01-13",
+     "deliveredDate": "2026-01-12",
+     "status": "delivered",
+     "totalCents": 24300,
+     "shippingCents": 900,
+     "items": [
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c",
+      "1x Merino throw blanket [TXT-MER-01, textiles] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2751",
+     "orderDate": "2026-10-14",
+     "promisedDate": "2026-10-18",
+     "deliveredDate": null,
+     "status": "processing",
+     "totalCents": 13200,
+     "shippingCents": 700,
+     "items": [
+      "1x Custom-cut glass shelf [GLS-CUT-07, custom_cut_glass] @12500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2762",
+     "orderDate": "2026-09-13",
+     "promisedDate": "2026-09-19",
+     "deliveredDate": "2026-09-18",
+     "status": "delivered",
+     "totalCents": 12400,
+     "shippingCents": 500,
+     "items": [
+      "1x Brass table lamp [LGT-BRS-01, lighting] @11900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2770",
+     "orderDate": "2026-09-29",
+     "promisedDate": "2026-10-04",
+     "deliveredDate": "2026-10-04",
+     "status": "delivered",
+     "totalCents": 9800,
+     "shippingCents": 900,
+     "items": [
+      "1x Stoneware dinner set (12 pc) [DIN-STN-12, kitchen] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1027",
+   "name": "Ada Moreau",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-2775",
+     "orderDate": "2026-09-10",
+     "promisedDate": "2026-09-16",
+     "deliveredDate": "2026-09-20",
+     "status": "delivered",
+     "totalCents": 3700,
+     "shippingCents": 900,
+     "items": [
+      "1x Linen apron [TXT-APR-01, textiles] @2800c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2783",
+     "orderDate": "2026-08-29",
+     "promisedDate": "2026-09-03",
+     "deliveredDate": "2026-09-02",
+     "status": "delivered",
+     "totalCents": 11900,
+     "shippingCents": 0,
+     "items": [
+      "1x Brass table lamp [LGT-BRS-01, lighting] @11900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2794",
+     "orderDate": "2026-10-14",
+     "promisedDate": "2026-10-20",
+     "deliveredDate": null,
+     "status": "processing",
+     "totalCents": 11100,
+     "shippingCents": 900,
+     "items": [
+      "2x Solar lantern [OUT-LNT-01, outdoor] @2600c",
+      "1x Digital gift card $50 [GFT-050, gift_card] @5000c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1028",
+   "name": "Ezra Arden",
+   "tier": "platinum",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-2805",
+     "orderDate": "2025-01-12",
+     "promisedDate": "2025-01-17",
+     "deliveredDate": "2025-01-15",
+     "status": "delivered",
+     "totalCents": 2800,
+     "shippingCents": 0,
+     "items": [
+      "1x Linen apron [TXT-APR-01, textiles] @2800c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2818",
+     "orderDate": "2026-10-04",
+     "promisedDate": "2026-10-09",
+     "deliveredDate": "2026-10-15",
+     "status": "delivered",
+     "totalCents": 18800,
+     "shippingCents": 900,
+     "items": [
+      "1x Smart thermostat [ELC-THM-01, electronics] @17900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2823",
+     "orderDate": "2026-05-13",
+     "promisedDate": "2026-05-18",
+     "deliveredDate": "2026-05-16",
+     "status": "delivered",
+     "totalCents": 9700,
+     "shippingCents": 0,
+     "items": [
+      "3x Solar lantern [OUT-LNT-01, outdoor] @2600c",
+      "1x Clearance glass vase [CLR-VAS-09, clearance] @1900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2826",
+     "orderDate": "2024-03-04",
+     "promisedDate": "2024-03-09",
+     "deliveredDate": "2024-03-09",
+     "status": "delivered",
+     "totalCents": 19000,
+     "shippingCents": 700,
+     "items": [
+      "1x Merino throw blanket [TXT-MER-01, textiles] @8900c",
+      "1x Rattan pendant light [LGT-PND-03, lighting] @9400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2837",
+     "orderDate": "2024-09-18",
+     "promisedDate": "2024-09-24",
+     "deliveredDate": "2024-09-28",
+     "status": "delivered",
+     "totalCents": 2600,
+     "shippingCents": 700,
+     "items": [
+      "1x Clearance glass vase [CLR-VAS-09, clearance] @1900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1029",
+   "name": "Mira Whitfield",
+   "tier": "platinum",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-2839",
+     "orderDate": "2024-05-24",
+     "promisedDate": "2024-05-30",
+     "deliveredDate": "2024-05-28",
+     "status": "delivered",
+     "totalCents": 9400,
+     "shippingCents": 0,
+     "items": [
+      "1x Rattan pendant light [LGT-PND-03, lighting] @9400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2851",
+     "orderDate": "2024-11-09",
+     "promisedDate": "2024-11-14",
+     "deliveredDate": "2024-11-12",
+     "status": "delivered",
+     "totalCents": 18400,
+     "shippingCents": 500,
+     "items": [
+      "1x Smart thermostat [ELC-THM-01, electronics] @17900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2855",
+     "orderDate": "2026-09-08",
+     "promisedDate": "2026-09-12",
+     "deliveredDate": "2026-09-11",
+     "status": "delivered",
+     "totalCents": 13400,
+     "shippingCents": 900,
+     "items": [
+      "1x Custom-cut glass shelf [GLS-CUT-07, custom_cut_glass] @12500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2857",
+     "orderDate": "2025-04-30",
+     "promisedDate": "2025-05-07",
+     "deliveredDate": "2025-05-05",
+     "status": "delivered",
+     "totalCents": 13200,
+     "shippingCents": 700,
+     "items": [
+      "1x Custom-cut glass shelf [GLS-CUT-07, custom_cut_glass] @12500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1030",
+   "name": "Ada Mbeki",
+   "tier": "gold",
+   "churnFlags": [
+    "mentioned_cancelling"
+   ],
+   "orders": [
+    {
+     "id": "ORD-2867",
+     "orderDate": "2024-03-07",
+     "promisedDate": "2024-03-13",
+     "deliveredDate": "2024-03-12",
+     "status": "delivered",
+     "totalCents": 23600,
+     "shippingCents": 700,
+     "items": [
+      "1x Bookshelf speaker pair [ELC-SPK-02, electronics] @22900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2870",
+     "orderDate": "2026-09-18",
+     "promisedDate": "2026-09-24",
+     "deliveredDate": "2026-09-23",
+     "status": "delivered",
+     "totalCents": 8000,
+     "shippingCents": 0,
+     "items": [
+      "1x Linen apron [TXT-APR-01, textiles] @2800c",
+      "2x Solar lantern [OUT-LNT-01, outdoor] @2600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2876",
+     "orderDate": "2026-07-25",
+     "promisedDate": "2026-07-30",
+     "deliveredDate": "2026-07-28",
+     "status": "delivered",
+     "totalCents": 12500,
+     "shippingCents": 0,
+     "items": [
+      "1x Custom-cut glass shelf [GLS-CUT-07, custom_cut_glass] @12500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2877",
+     "orderDate": "2026-09-23",
+     "promisedDate": "2026-09-30",
+     "deliveredDate": "2026-09-29",
+     "status": "delivered",
+     "totalCents": 12600,
+     "shippingCents": 700,
+     "items": [
+      "1x Brass table lamp [LGT-BRS-01, lighting] @11900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2880",
+     "orderDate": "2026-04-25",
+     "promisedDate": "2026-05-01",
+     "deliveredDate": "2026-05-01",
+     "status": "delivered",
+     "totalCents": 3700,
+     "shippingCents": 900,
+     "items": [
+      "1x Linen apron [TXT-APR-01, textiles] @2800c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2893",
+     "orderDate": "2026-05-25",
+     "promisedDate": "2026-05-30",
+     "deliveredDate": null,
+     "status": "shipped",
+     "totalCents": 4300,
+     "shippingCents": 700,
+     "items": [
+      "1x Stoneware mug set (4) [MUG-STN-04, kitchen] @3600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2904",
+     "orderDate": "2026-09-30",
+     "promisedDate": "2026-10-04",
+     "deliveredDate": "2026-10-03",
+     "status": "delivered",
+     "totalCents": 3900,
+     "shippingCents": 500,
+     "items": [
+      "1x Ceramic pour-over set [KIT-POUR-02, kitchen] @3400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1031",
+   "name": "Jonah Fairweather",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-2911",
+     "orderDate": "2026-10-06",
+     "promisedDate": "2026-10-10",
+     "deliveredDate": "2026-10-10",
+     "status": "delivered",
+     "totalCents": 8900,
+     "shippingCents": 500,
+     "items": [
+      "1x Ceramic pour-over set [KIT-POUR-02, kitchen] @3400c",
+      "1x Digital gift card $50 [GFT-050, gift_card] @5000c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2922",
+     "orderDate": "2026-07-17",
+     "promisedDate": "2026-07-22",
+     "deliveredDate": "2026-07-28",
+     "status": "delivered",
+     "totalCents": 22900,
+     "shippingCents": 0,
+     "items": [
+      "1x Bookshelf speaker pair [ELC-SPK-02, electronics] @22900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2935",
+     "orderDate": "2026-09-04",
+     "promisedDate": "2026-09-09",
+     "deliveredDate": "2026-09-07",
+     "status": "delivered",
+     "totalCents": 16300,
+     "shippingCents": 0,
+     "items": [
+      "1x Noise-cancelling headphones [ELC-NCH-01, electronics] @12900c",
+      "1x Ceramic pour-over set [KIT-POUR-02, kitchen] @3400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2940",
+     "orderDate": "2026-09-02",
+     "promisedDate": "2026-09-09",
+     "deliveredDate": "2026-09-09",
+     "status": "delivered",
+     "totalCents": 15200,
+     "shippingCents": 700,
+     "items": [
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2941",
+     "orderDate": "2026-01-23",
+     "promisedDate": "2026-01-27",
+     "deliveredDate": "2026-01-26",
+     "status": "delivered",
+     "totalCents": 4200,
+     "shippingCents": 0,
+     "items": [
+      "1x Cast iron skillet 12in [SKL-CI-12, kitchen] @4200c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2948",
+     "orderDate": "2026-06-25",
+     "promisedDate": "2026-07-01",
+     "deliveredDate": "2026-06-29",
+     "status": "delivered",
+     "totalCents": 14500,
+     "shippingCents": 0,
+     "items": [
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1032",
+   "name": "Lucia Ibarra",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-2957",
+     "orderDate": "2024-11-22",
+     "promisedDate": "2024-11-28",
+     "deliveredDate": "2024-11-26",
+     "status": "delivered",
+     "totalCents": 5000,
+     "shippingCents": 0,
+     "items": [
+      "1x Digital gift card $50 [GFT-050, gift_card] @5000c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2961",
+     "orderDate": "2026-10-05",
+     "promisedDate": "2026-10-10",
+     "deliveredDate": "2026-10-11",
+     "status": "delivered",
+     "totalCents": 5700,
+     "shippingCents": 700,
+     "items": [
+      "1x Digital gift card $50 [GFT-050, gift_card] @5000c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2972",
+     "orderDate": "2026-09-02",
+     "promisedDate": "2026-09-07",
+     "deliveredDate": "2026-09-07",
+     "status": "delivered",
+     "totalCents": 16700,
+     "shippingCents": 0,
+     "items": [
+      "1x Custom-cut glass shelf [GLS-CUT-07, custom_cut_glass] @12500c",
+      "1x Cast iron skillet 12in [SKL-CI-12, kitchen] @4200c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2985",
+     "orderDate": "2026-08-17",
+     "promisedDate": "2026-08-21",
+     "deliveredDate": "2026-08-19",
+     "status": "delivered",
+     "totalCents": 12400,
+     "shippingCents": 500,
+     "items": [
+      "1x Brass table lamp [LGT-BRS-01, lighting] @11900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-2992",
+     "orderDate": "2026-10-02",
+     "promisedDate": "2026-10-07",
+     "deliveredDate": "2026-10-07",
+     "status": "delivered",
+     "totalCents": 17900,
+     "shippingCents": 0,
+     "items": [
+      "1x Smart thermostat [ELC-THM-01, electronics] @17900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3005",
+     "orderDate": "2026-09-27",
+     "promisedDate": "2026-10-03",
+     "deliveredDate": "2026-10-01",
+     "status": "delivered",
+     "totalCents": 15000,
+     "shippingCents": 500,
+     "items": [
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3015",
+     "orderDate": "2026-04-02",
+     "promisedDate": "2026-04-07",
+     "deliveredDate": "2026-04-07",
+     "status": "delivered",
+     "totalCents": 16100,
+     "shippingCents": 0,
+     "items": [
+      "1x Stoneware mug set (4) [MUG-STN-04, kitchen] @3600c",
+      "1x Custom-cut glass shelf [GLS-CUT-07, custom_cut_glass] @12500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3027",
+     "orderDate": "2026-09-02",
+     "promisedDate": "2026-09-06",
+     "deliveredDate": "2026-09-04",
+     "status": "delivered",
+     "totalCents": 8900,
+     "shippingCents": 0,
+     "items": [
+      "1x Merino throw blanket [TXT-MER-01, textiles] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": true
+    }
+   ]
+  },
+  {
+   "id": "CUS-1033",
+   "name": "Ravi Bishara",
+   "tier": "gold",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-3040",
+     "orderDate": "2026-06-17",
+     "promisedDate": "2026-06-23",
+     "deliveredDate": "2026-06-25",
+     "status": "delivered",
+     "totalCents": 26800,
+     "shippingCents": 500,
+     "items": [
+      "1x Ceramic pour-over set [KIT-POUR-02, kitchen] @3400c",
+      "1x Bookshelf speaker pair [ELC-SPK-02, electronics] @22900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3044",
+     "orderDate": "2025-04-22",
+     "promisedDate": "2025-04-26",
+     "deliveredDate": "2025-04-24",
+     "status": "delivered",
+     "totalCents": 25900,
+     "shippingCents": 500,
+     "items": [
+      "1x Custom-cut glass shelf [GLS-CUT-07, custom_cut_glass] @12500c",
+      "1x Noise-cancelling headphones [ELC-NCH-01, electronics] @12900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3056",
+     "orderDate": "2026-06-08",
+     "promisedDate": "2026-06-12",
+     "deliveredDate": "2026-06-14",
+     "status": "delivered",
+     "totalCents": 11500,
+     "shippingCents": 700,
+     "items": [
+      "1x Stoneware dinner set (12 pc) [DIN-STN-12, kitchen] @8900c",
+      "1x Clearance glass vase [CLR-VAS-09, clearance] @1900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3062",
+     "orderDate": "2026-09-25",
+     "promisedDate": "2026-10-02",
+     "deliveredDate": "2026-10-01",
+     "status": "delivered",
+     "totalCents": 12500,
+     "shippingCents": 0,
+     "items": [
+      "1x Custom-cut glass shelf [GLS-CUT-07, custom_cut_glass] @12500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3072",
+     "orderDate": "2026-07-28",
+     "promisedDate": "2026-08-03",
+     "deliveredDate": "2026-08-01",
+     "status": "delivered",
+     "totalCents": 6200,
+     "shippingCents": 0,
+     "items": [
+      "1x Solar lantern [OUT-LNT-01, outdoor] @2600c",
+      "1x Stoneware mug set (4) [MUG-STN-04, kitchen] @3600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3082",
+     "orderDate": "2026-04-02",
+     "promisedDate": "2026-04-09",
+     "deliveredDate": "2026-04-08",
+     "status": "delivered",
+     "totalCents": 9900,
+     "shippingCents": 500,
+     "items": [
+      "1x Rattan pendant light [LGT-PND-03, lighting] @9400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1034",
+   "name": "Jonah Novak",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-3093",
+     "orderDate": "2026-09-09",
+     "promisedDate": "2026-09-14",
+     "deliveredDate": "2026-09-13",
+     "status": "delivered",
+     "totalCents": 15200,
+     "shippingCents": 700,
+     "items": [
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3095",
+     "orderDate": "2024-09-23",
+     "promisedDate": "2024-09-27",
+     "deliveredDate": "2024-09-25",
+     "status": "delivered",
+     "totalCents": 13600,
+     "shippingCents": 700,
+     "items": [
+      "1x Noise-cancelling headphones [ELC-NCH-01, electronics] @12900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3108",
+     "orderDate": "2025-08-16",
+     "promisedDate": "2025-08-22",
+     "deliveredDate": "2025-08-20",
+     "status": "delivered",
+     "totalCents": 17900,
+     "shippingCents": 0,
+     "items": [
+      "1x Smart thermostat [ELC-THM-01, electronics] @17900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3117",
+     "orderDate": "2026-05-18",
+     "promisedDate": "2026-05-24",
+     "deliveredDate": "2026-05-29",
+     "status": "delivered",
+     "totalCents": 12500,
+     "shippingCents": 0,
+     "items": [
+      "1x Custom-cut glass shelf [GLS-CUT-07, custom_cut_glass] @12500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3118",
+     "orderDate": "2026-09-30",
+     "promisedDate": "2026-10-04",
+     "deliveredDate": "2026-10-03",
+     "status": "delivered",
+     "totalCents": 23600,
+     "shippingCents": 700,
+     "items": [
+      "1x Bookshelf speaker pair [ELC-SPK-02, electronics] @22900c"
+     ],
+     "captures": 1,
+     "damageScan": true
+    },
+    {
+     "id": "ORD-3127",
+     "orderDate": "2025-01-06",
+     "promisedDate": "2025-01-12",
+     "deliveredDate": "2025-01-10",
+     "status": "delivered",
+     "totalCents": 10100,
+     "shippingCents": 700,
+     "items": [
+      "1x Rattan pendant light [LGT-PND-03, lighting] @9400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3130",
+     "orderDate": "2026-02-18",
+     "promisedDate": "2026-02-22",
+     "deliveredDate": "2026-02-22",
+     "status": "delivered",
+     "totalCents": 14500,
+     "shippingCents": 0,
+     "items": [
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3138",
+     "orderDate": "2026-06-22",
+     "promisedDate": "2026-06-26",
+     "deliveredDate": "2026-06-26",
+     "status": "delivered",
+     "totalCents": 23600,
+     "shippingCents": 700,
+     "items": [
+      "1x Bookshelf speaker pair [ELC-SPK-02, electronics] @22900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3144",
+     "orderDate": "2026-01-20",
+     "promisedDate": "2026-01-24",
+     "deliveredDate": "2026-01-24",
+     "status": "delivered",
+     "totalCents": 11900,
+     "shippingCents": 0,
+     "items": [
+      "1x Brass table lamp [LGT-BRS-01, lighting] @11900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1035",
+   "name": "Finn Moreau",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-3154",
+     "orderDate": "2024-06-30",
+     "promisedDate": "2024-07-06",
+     "deliveredDate": "2024-07-06",
+     "status": "delivered",
+     "totalCents": 7800,
+     "shippingCents": 0,
+     "items": [
+      "3x Solar lantern [OUT-LNT-01, outdoor] @2600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3159",
+     "orderDate": "2025-05-17",
+     "promisedDate": "2025-05-24",
+     "deliveredDate": "2025-05-24",
+     "status": "delivered",
+     "totalCents": 10850,
+     "shippingCents": 500,
+     "items": [
+      "3x Folding camp chair [OUT-CHR-02, outdoor] @3450c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3167",
+     "orderDate": "2026-06-30",
+     "promisedDate": "2026-07-07",
+     "deliveredDate": "2026-07-05",
+     "status": "delivered",
+     "totalCents": 13400,
+     "shippingCents": 500,
+     "items": [
+      "1x Noise-cancelling headphones [ELC-NCH-01, electronics] @12900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3168",
+     "orderDate": "2026-06-10",
+     "promisedDate": "2026-06-17",
+     "deliveredDate": "2026-06-17",
+     "status": "delivered",
+     "totalCents": 4200,
+     "shippingCents": 0,
+     "items": [
+      "1x Cast iron skillet 12in [SKL-CI-12, kitchen] @4200c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3174",
+     "orderDate": "2026-04-16",
+     "promisedDate": "2026-04-23",
+     "deliveredDate": "2026-04-21",
+     "status": "delivered",
+     "totalCents": 14500,
+     "shippingCents": 0,
+     "items": [
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3186",
+     "orderDate": "2026-03-02",
+     "promisedDate": "2026-03-08",
+     "deliveredDate": "2026-03-08",
+     "status": "delivered",
+     "totalCents": 3450,
+     "shippingCents": 0,
+     "items": [
+      "1x Folding camp chair [OUT-CHR-02, outdoor] @3450c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3193",
+     "orderDate": "2026-09-25",
+     "promisedDate": "2026-09-29",
+     "deliveredDate": "2026-09-29",
+     "status": "delivered",
+     "totalCents": 2600,
+     "shippingCents": 0,
+     "items": [
+      "1x Solar lantern [OUT-LNT-01, outdoor] @2600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3203",
+     "orderDate": "2025-01-04",
+     "promisedDate": "2025-01-11",
+     "deliveredDate": "2025-01-11",
+     "status": "delivered",
+     "totalCents": 11900,
+     "shippingCents": 0,
+     "items": [
+      "1x Brass table lamp [LGT-BRS-01, lighting] @11900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1036",
+   "name": "Nia Ashdown",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-3216",
+     "orderDate": "2025-03-09",
+     "promisedDate": "2025-03-15",
+     "deliveredDate": "2025-03-13",
+     "status": "delivered",
+     "totalCents": 15000,
+     "shippingCents": 500,
+     "items": [
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3219",
+     "orderDate": "2026-10-12",
+     "promisedDate": "2026-10-16",
+     "deliveredDate": null,
+     "status": "shipped",
+     "totalCents": 12800,
+     "shippingCents": 900,
+     "items": [
+      "1x Brass table lamp [LGT-BRS-01, lighting] @11900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3227",
+     "orderDate": "2026-05-21",
+     "promisedDate": "2026-05-28",
+     "deliveredDate": "2026-05-27",
+     "status": "delivered",
+     "totalCents": 5700,
+     "shippingCents": 700,
+     "items": [
+      "1x Digital gift card $50 [GFT-050, gift_card] @5000c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3228",
+     "orderDate": "2026-06-07",
+     "promisedDate": "2026-06-13",
+     "deliveredDate": "2026-06-17",
+     "status": "delivered",
+     "totalCents": 12500,
+     "shippingCents": 0,
+     "items": [
+      "1x Custom-cut glass shelf [GLS-CUT-07, custom_cut_glass] @12500c"
+     ],
+     "captures": 2,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3230",
+     "orderDate": "2026-09-09",
+     "promisedDate": "2026-09-15",
+     "deliveredDate": null,
+     "status": "shipped",
+     "totalCents": 5700,
+     "shippingCents": 700,
+     "items": [
+      "1x Digital gift card $50 [GFT-050, gift_card] @5000c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1037",
+   "name": "Yara Quintero",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-3234",
+     "orderDate": "2026-10-03",
+     "promisedDate": "2026-10-10",
+     "deliveredDate": "2026-10-10",
+     "status": "delivered",
+     "totalCents": 15000,
+     "shippingCents": 500,
+     "items": [
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3247",
+     "orderDate": "2026-07-27",
+     "promisedDate": "2026-07-31",
+     "deliveredDate": "2026-07-31",
+     "status": "delivered",
+     "totalCents": 8350,
+     "shippingCents": 700,
+     "items": [
+      "1x Cast iron skillet 12in [SKL-CI-12, kitchen] @4200c",
+      "1x Folding camp chair [OUT-CHR-02, outdoor] @3450c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3251",
+     "orderDate": "2026-06-16",
+     "promisedDate": "2026-06-20",
+     "deliveredDate": "2026-06-19",
+     "status": "delivered",
+     "totalCents": 7400,
+     "shippingCents": 500,
+     "items": [
+      "2x Folding camp chair [OUT-CHR-02, outdoor] @3450c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3257",
+     "orderDate": "2024-11-21",
+     "promisedDate": "2024-11-27",
+     "deliveredDate": "2024-11-25",
+     "status": "delivered",
+     "totalCents": 10800,
+     "shippingCents": 0,
+     "items": [
+      "1x Clearance glass vase [CLR-VAS-09, clearance] @1900c",
+      "1x Stoneware dinner set (12 pc) [DIN-STN-12, kitchen] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3263",
+     "orderDate": "2026-04-29",
+     "promisedDate": "2026-05-06",
+     "deliveredDate": "2026-05-04",
+     "status": "delivered",
+     "totalCents": 20700,
+     "shippingCents": 0,
+     "items": [
+      "3x Solar lantern [OUT-LNT-01, outdoor] @2600c",
+      "1x Noise-cancelling headphones [ELC-NCH-01, electronics] @12900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3265",
+     "orderDate": "2026-06-14",
+     "promisedDate": "2026-06-20",
+     "deliveredDate": "2026-06-19",
+     "status": "delivered",
+     "totalCents": 8900,
+     "shippingCents": 0,
+     "items": [
+      "1x Stoneware dinner set (12 pc) [DIN-STN-12, kitchen] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3269",
+     "orderDate": "2026-08-22",
+     "promisedDate": "2026-08-27",
+     "deliveredDate": "2026-08-28",
+     "status": "delivered",
+     "totalCents": 13400,
+     "shippingCents": 500,
+     "items": [
+      "1x Noise-cancelling headphones [ELC-NCH-01, electronics] @12900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3275",
+     "orderDate": "2026-10-06",
+     "promisedDate": "2026-10-12",
+     "deliveredDate": "2026-10-15",
+     "status": "delivered",
+     "totalCents": 21600,
+     "shippingCents": 900,
+     "items": [
+      "1x Smart thermostat [ELC-THM-01, electronics] @17900c",
+      "1x Linen apron [TXT-APR-01, textiles] @2800c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1038",
+   "name": "Jonah Langford",
+   "tier": "platinum",
+   "churnFlags": [
+    "mentioned_cancelling"
+   ],
+   "orders": [
+    {
+     "id": "ORD-3281",
+     "orderDate": "2024-08-10",
+     "promisedDate": "2024-08-14",
+     "deliveredDate": "2024-08-12",
+     "status": "delivered",
+     "totalCents": 11900,
+     "shippingCents": 0,
+     "items": [
+      "1x Brass table lamp [LGT-BRS-01, lighting] @11900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3291",
+     "orderDate": "2024-05-16",
+     "promisedDate": "2024-05-21",
+     "deliveredDate": "2024-05-23",
+     "status": "delivered",
+     "totalCents": 15100,
+     "shippingCents": 0,
+     "items": [
+      "1x Custom-cut glass shelf [GLS-CUT-07, custom_cut_glass] @12500c",
+      "1x Solar lantern [OUT-LNT-01, outdoor] @2600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3296",
+     "orderDate": "2026-10-02",
+     "promisedDate": "2026-10-06",
+     "deliveredDate": "2026-10-04",
+     "status": "delivered",
+     "totalCents": 14500,
+     "shippingCents": 0,
+     "items": [
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3299",
+     "orderDate": "2026-08-21",
+     "promisedDate": "2026-08-25",
+     "deliveredDate": "2026-08-23",
+     "status": "delivered",
+     "totalCents": 12900,
+     "shippingCents": 0,
+     "items": [
+      "1x Noise-cancelling headphones [ELC-NCH-01, electronics] @12900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3308",
+     "orderDate": "2024-04-02",
+     "promisedDate": "2024-04-06",
+     "deliveredDate": "2024-04-05",
+     "status": "delivered",
+     "totalCents": 7000,
+     "shippingCents": 0,
+     "items": [
+      "1x Linen apron [TXT-APR-01, textiles] @2800c",
+      "1x Cast iron skillet 12in [SKL-CI-12, kitchen] @4200c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3311",
+     "orderDate": "2026-07-01",
+     "promisedDate": "2026-07-07",
+     "deliveredDate": "2026-07-06",
+     "status": "delivered",
+     "totalCents": 12400,
+     "shippingCents": 500,
+     "items": [
+      "1x Brass table lamp [LGT-BRS-01, lighting] @11900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1039",
+   "name": "Felix Penhaligon",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-3312",
+     "orderDate": "2026-09-02",
+     "promisedDate": "2026-09-08",
+     "deliveredDate": "2026-09-07",
+     "status": "delivered",
+     "totalCents": 1900,
+     "shippingCents": 0,
+     "items": [
+      "1x Clearance glass vase [CLR-VAS-09, clearance] @1900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3315",
+     "orderDate": "2026-09-06",
+     "promisedDate": "2026-09-11",
+     "deliveredDate": "2026-09-11",
+     "status": "delivered",
+     "totalCents": 18400,
+     "shippingCents": 500,
+     "items": [
+      "1x Smart thermostat [ELC-THM-01, electronics] @17900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3322",
+     "orderDate": "2024-08-24",
+     "promisedDate": "2024-08-29",
+     "deliveredDate": "2024-08-29",
+     "status": "delivered",
+     "totalCents": 12600,
+     "shippingCents": 700,
+     "items": [
+      "1x Brass table lamp [LGT-BRS-01, lighting] @11900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3324",
+     "orderDate": "2026-09-18",
+     "promisedDate": "2026-09-25",
+     "deliveredDate": "2026-09-23",
+     "status": "delivered",
+     "totalCents": 9400,
+     "shippingCents": 0,
+     "items": [
+      "1x Rattan pendant light [LGT-PND-03, lighting] @9400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3329",
+     "orderDate": "2025-12-08",
+     "promisedDate": "2025-12-13",
+     "deliveredDate": "2025-12-11",
+     "status": "delivered",
+     "totalCents": 2400,
+     "shippingCents": 500,
+     "items": [
+      "1x Clearance glass vase [CLR-VAS-09, clearance] @1900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3330",
+     "orderDate": "2024-12-28",
+     "promisedDate": "2025-01-01",
+     "deliveredDate": "2024-12-30",
+     "status": "delivered",
+     "totalCents": 5500,
+     "shippingCents": 0,
+     "items": [
+      "1x Clearance glass vase [CLR-VAS-09, clearance] @1900c",
+      "1x Stoneware mug set (4) [MUG-STN-04, kitchen] @3600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3343",
+     "orderDate": "2025-01-28",
+     "promisedDate": "2025-02-04",
+     "deliveredDate": "2025-02-02",
+     "status": "delivered",
+     "totalCents": 2800,
+     "shippingCents": 900,
+     "items": [
+      "1x Clearance glass vase [CLR-VAS-09, clearance] @1900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1040",
+   "name": "Rosa Langford",
+   "tier": "gold",
+   "churnFlags": [
+    "support_contacts_high"
+   ],
+   "orders": [
+    {
+     "id": "ORD-3354",
+     "orderDate": "2026-09-16",
+     "promisedDate": "2026-09-21",
+     "deliveredDate": "2026-09-22",
+     "status": "delivered",
+     "totalCents": 12350,
+     "shippingCents": 0,
+     "items": [
+      "1x Stoneware dinner set (12 pc) [DIN-STN-12, kitchen] @8900c",
+      "1x Folding camp chair [OUT-CHR-02, outdoor] @3450c"
+     ],
+     "captures": 2,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3356",
+     "orderDate": "2025-03-15",
+     "promisedDate": "2025-03-21",
+     "deliveredDate": "2025-03-19",
+     "status": "delivered",
+     "totalCents": 7000,
+     "shippingCents": 0,
+     "items": [
+      "1x Cast iron skillet 12in [SKL-CI-12, kitchen] @4200c",
+      "1x Linen apron [TXT-APR-01, textiles] @2800c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3367",
+     "orderDate": "2026-03-25",
+     "promisedDate": "2026-03-31",
+     "deliveredDate": "2026-04-05",
+     "status": "delivered",
+     "totalCents": 23600,
+     "shippingCents": 700,
+     "items": [
+      "1x Smart thermostat [ELC-THM-01, electronics] @17900c",
+      "1x Digital gift card $50 [GFT-050, gift_card] @5000c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3379",
+     "orderDate": "2025-04-17",
+     "promisedDate": "2025-04-24",
+     "deliveredDate": "2025-04-22",
+     "status": "delivered",
+     "totalCents": 23600,
+     "shippingCents": 500,
+     "items": [
+      "2x Solar lantern [OUT-LNT-01, outdoor] @2600c",
+      "1x Smart thermostat [ELC-THM-01, electronics] @17900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3387",
+     "orderDate": "2025-05-20",
+     "promisedDate": "2025-05-27",
+     "deliveredDate": "2025-06-02",
+     "status": "delivered",
+     "totalCents": 5000,
+     "shippingCents": 0,
+     "items": [
+      "1x Digital gift card $50 [GFT-050, gift_card] @5000c"
+     ],
+     "captures": 1,
+     "damageScan": true
+    },
+    {
+     "id": "ORD-3397",
+     "orderDate": "2025-03-27",
+     "promisedDate": "2025-04-02",
+     "deliveredDate": "2025-03-31",
+     "status": "delivered",
+     "totalCents": 8900,
+     "shippingCents": 0,
+     "items": [
+      "1x Merino throw blanket [TXT-MER-01, textiles] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3402",
+     "orderDate": "2025-06-26",
+     "promisedDate": "2025-07-03",
+     "deliveredDate": "2025-07-03",
+     "status": "delivered",
+     "totalCents": 32700,
+     "shippingCents": 900,
+     "items": [
+      "1x Merino throw blanket [TXT-MER-01, textiles] @8900c",
+      "1x Bookshelf speaker pair [ELC-SPK-02, electronics] @22900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3412",
+     "orderDate": "2026-09-21",
+     "promisedDate": "2026-09-25",
+     "deliveredDate": "2026-09-24",
+     "status": "delivered",
+     "totalCents": 3600,
+     "shippingCents": 0,
+     "items": [
+      "1x Stoneware mug set (4) [MUG-STN-04, kitchen] @3600c"
+     ],
+     "captures": 2,
+     "damageScan": true
+    },
+    {
+     "id": "ORD-3422",
+     "orderDate": "2025-04-03",
+     "promisedDate": "2025-04-09",
+     "deliveredDate": "2025-04-07",
+     "status": "delivered",
+     "totalCents": 9400,
+     "shippingCents": 0,
+     "items": [
+      "1x Rattan pendant light [LGT-PND-03, lighting] @9400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1041",
+   "name": "Omar Nakamura",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-3435",
+     "orderDate": "2026-09-28",
+     "promisedDate": "2026-10-05",
+     "deliveredDate": "2026-10-03",
+     "status": "delivered",
+     "totalCents": 4300,
+     "shippingCents": 700,
+     "items": [
+      "1x Stoneware mug set (4) [MUG-STN-04, kitchen] @3600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3442",
+     "orderDate": "2025-01-27",
+     "promisedDate": "2025-02-03",
+     "deliveredDate": "2025-02-03",
+     "status": "delivered",
+     "totalCents": 9800,
+     "shippingCents": 900,
+     "items": [
+      "1x Merino throw blanket [TXT-MER-01, textiles] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3450",
+     "orderDate": "2025-11-25",
+     "promisedDate": "2025-11-30",
+     "deliveredDate": "2025-12-04",
+     "status": "delivered",
+     "totalCents": 22850,
+     "shippingCents": 0,
+     "items": [
+      "1x Custom-cut glass shelf [GLS-CUT-07, custom_cut_glass] @12500c",
+      "3x Folding camp chair [OUT-CHR-02, outdoor] @3450c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3453",
+     "orderDate": "2026-01-08",
+     "promisedDate": "2026-01-15",
+     "deliveredDate": "2026-01-14",
+     "status": "delivered",
+     "totalCents": 15400,
+     "shippingCents": 900,
+     "items": [
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c"
+     ],
+     "captures": 1,
+     "damageScan": true
+    },
+    {
+     "id": "ORD-3460",
+     "orderDate": "2026-07-19",
+     "promisedDate": "2026-07-23",
+     "deliveredDate": "2026-07-28",
+     "status": "delivered",
+     "totalCents": 3500,
+     "shippingCents": 700,
+     "items": [
+      "1x Linen apron [TXT-APR-01, textiles] @2800c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3473",
+     "orderDate": "2025-09-11",
+     "promisedDate": "2025-09-15",
+     "deliveredDate": "2025-09-14",
+     "status": "delivered",
+     "totalCents": 15400,
+     "shippingCents": 900,
+     "items": [
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3482",
+     "orderDate": "2026-08-14",
+     "promisedDate": "2026-08-18",
+     "deliveredDate": "2026-08-17",
+     "status": "delivered",
+     "totalCents": 10850,
+     "shippingCents": 500,
+     "items": [
+      "3x Folding camp chair [OUT-CHR-02, outdoor] @3450c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3493",
+     "orderDate": "2026-10-12",
+     "promisedDate": "2026-10-17",
+     "deliveredDate": null,
+     "status": "shipped",
+     "totalCents": 13400,
+     "shippingCents": 900,
+     "items": [
+      "1x Custom-cut glass shelf [GLS-CUT-07, custom_cut_glass] @12500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1042",
+   "name": "Leila Oduya",
+   "tier": "platinum",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-3498",
+     "orderDate": "2025-04-09",
+     "promisedDate": "2025-04-14",
+     "deliveredDate": "2025-04-13",
+     "status": "delivered",
+     "totalCents": 6900,
+     "shippingCents": 0,
+     "items": [
+      "2x Folding camp chair [OUT-CHR-02, outdoor] @3450c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3511",
+     "orderDate": "2026-06-30",
+     "promisedDate": "2026-07-05",
+     "deliveredDate": "2026-07-07",
+     "status": "delivered",
+     "totalCents": 13400,
+     "shippingCents": 500,
+     "items": [
+      "1x Noise-cancelling headphones [ELC-NCH-01, electronics] @12900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3519",
+     "orderDate": "2025-08-11",
+     "promisedDate": "2025-08-16",
+     "deliveredDate": "2025-08-15",
+     "status": "delivered",
+     "totalCents": 9600,
+     "shippingCents": 700,
+     "items": [
+      "1x Merino throw blanket [TXT-MER-01, textiles] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3520",
+     "orderDate": "2025-08-16",
+     "promisedDate": "2025-08-21",
+     "deliveredDate": "2025-08-19",
+     "status": "delivered",
+     "totalCents": 15400,
+     "shippingCents": 900,
+     "items": [
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1043",
+   "name": "Wren Ashdown",
+   "tier": "gold",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-3525",
+     "orderDate": "2024-09-22",
+     "promisedDate": "2024-09-29",
+     "deliveredDate": "2024-09-29",
+     "status": "delivered",
+     "totalCents": 17200,
+     "shippingCents": 900,
+     "items": [
+      "2x Folding camp chair [OUT-CHR-02, outdoor] @3450c",
+      "1x Rattan pendant light [LGT-PND-03, lighting] @9400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3532",
+     "orderDate": "2024-05-14",
+     "promisedDate": "2024-05-21",
+     "deliveredDate": "2024-05-22",
+     "status": "delivered",
+     "totalCents": 4100,
+     "shippingCents": 500,
+     "items": [
+      "1x Stoneware mug set (4) [MUG-STN-04, kitchen] @3600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3545",
+     "orderDate": "2026-08-27",
+     "promisedDate": "2026-09-02",
+     "deliveredDate": "2026-08-31",
+     "status": "delivered",
+     "totalCents": 8900,
+     "shippingCents": 0,
+     "items": [
+      "1x Merino throw blanket [TXT-MER-01, textiles] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3549",
+     "orderDate": "2026-03-16",
+     "promisedDate": "2026-03-23",
+     "deliveredDate": "2026-03-21",
+     "status": "delivered",
+     "totalCents": 17900,
+     "shippingCents": 0,
+     "items": [
+      "1x Smart thermostat [ELC-THM-01, electronics] @17900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1044",
+   "name": "Sam Valdez",
+   "tier": "platinum",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-3551",
+     "orderDate": "2026-09-28",
+     "promisedDate": "2026-10-05",
+     "deliveredDate": "2026-10-03",
+     "status": "delivered",
+     "totalCents": 34800,
+     "shippingCents": 0,
+     "items": [
+      "1x Brass table lamp [LGT-BRS-01, lighting] @11900c",
+      "1x Bookshelf speaker pair [ELC-SPK-02, electronics] @22900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3560",
+     "orderDate": "2026-09-03",
+     "promisedDate": "2026-09-10",
+     "deliveredDate": null,
+     "status": "shipped",
+     "totalCents": 9800,
+     "shippingCents": 900,
+     "items": [
+      "1x Merino throw blanket [TXT-MER-01, textiles] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3572",
+     "orderDate": "2026-08-07",
+     "promisedDate": "2026-08-14",
+     "deliveredDate": "2026-08-16",
+     "status": "delivered",
+     "totalCents": 18400,
+     "shippingCents": 500,
+     "items": [
+      "1x Smart thermostat [ELC-THM-01, electronics] @17900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3575",
+     "orderDate": "2026-09-28",
+     "promisedDate": "2026-10-02",
+     "deliveredDate": "2026-10-02",
+     "status": "delivered",
+     "totalCents": 5900,
+     "shippingCents": 700,
+     "items": [
+      "2x Solar lantern [OUT-LNT-01, outdoor] @2600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3584",
+     "orderDate": "2026-05-11",
+     "promisedDate": "2026-05-17",
+     "deliveredDate": "2026-05-16",
+     "status": "delivered",
+     "totalCents": 6050,
+     "shippingCents": 0,
+     "items": [
+      "1x Folding camp chair [OUT-CHR-02, outdoor] @3450c",
+      "1x Solar lantern [OUT-LNT-01, outdoor] @2600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3585",
+     "orderDate": "2026-10-14",
+     "promisedDate": "2026-10-19",
+     "deliveredDate": null,
+     "status": "processing",
+     "totalCents": 18800,
+     "shippingCents": 0,
+     "items": [
+      "2x Folding camp chair [OUT-CHR-02, outdoor] @3450c",
+      "1x Brass table lamp [LGT-BRS-01, lighting] @11900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3590",
+     "orderDate": "2026-06-18",
+     "promisedDate": "2026-06-22",
+     "deliveredDate": "2026-06-21",
+     "status": "delivered",
+     "totalCents": 27400,
+     "shippingCents": 0,
+     "items": [
+      "1x Noise-cancelling headphones [ELC-NCH-01, electronics] @12900c",
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1045",
+   "name": "Mira Calloway",
+   "tier": "gold",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-3602",
+     "orderDate": "2026-08-09",
+     "promisedDate": "2026-08-13",
+     "deliveredDate": "2026-08-13",
+     "status": "delivered",
+     "totalCents": 18600,
+     "shippingCents": 700,
+     "items": [
+      "1x Smart thermostat [ELC-THM-01, electronics] @17900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3607",
+     "orderDate": "2026-10-13",
+     "promisedDate": "2026-10-19",
+     "deliveredDate": null,
+     "status": "shipped",
+     "totalCents": 13800,
+     "shippingCents": 900,
+     "items": [
+      "1x Noise-cancelling headphones [ELC-NCH-01, electronics] @12900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3618",
+     "orderDate": "2026-02-17",
+     "promisedDate": "2026-02-23",
+     "deliveredDate": "2026-02-23",
+     "status": "delivered",
+     "totalCents": 11050,
+     "shippingCents": 700,
+     "items": [
+      "3x Folding camp chair [OUT-CHR-02, outdoor] @3450c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3629",
+     "orderDate": "2026-08-30",
+     "promisedDate": "2026-09-05",
+     "deliveredDate": "2026-09-04",
+     "status": "delivered",
+     "totalCents": 4100,
+     "shippingCents": 500,
+     "items": [
+      "1x Stoneware mug set (4) [MUG-STN-04, kitchen] @3600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3637",
+     "orderDate": "2026-09-13",
+     "promisedDate": "2026-09-18",
+     "deliveredDate": "2026-09-17",
+     "status": "delivered",
+     "totalCents": 5500,
+     "shippingCents": 500,
+     "items": [
+      "1x Digital gift card $50 [GFT-050, gift_card] @5000c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3649",
+     "orderDate": "2026-03-18",
+     "promisedDate": "2026-03-24",
+     "deliveredDate": "2026-03-22",
+     "status": "delivered",
+     "totalCents": 12500,
+     "shippingCents": 0,
+     "items": [
+      "1x Custom-cut glass shelf [GLS-CUT-07, custom_cut_glass] @12500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3652",
+     "orderDate": "2026-07-23",
+     "promisedDate": "2026-07-27",
+     "deliveredDate": "2026-07-27",
+     "status": "delivered",
+     "totalCents": 8500,
+     "shippingCents": 700,
+     "items": [
+      "3x Solar lantern [OUT-LNT-01, outdoor] @2600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3657",
+     "orderDate": "2025-09-29",
+     "promisedDate": "2025-10-06",
+     "deliveredDate": "2025-10-07",
+     "status": "delivered",
+     "totalCents": 14500,
+     "shippingCents": 0,
+     "items": [
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3668",
+     "orderDate": "2026-07-01",
+     "promisedDate": "2026-07-05",
+     "deliveredDate": "2026-07-09",
+     "status": "delivered",
+     "totalCents": 3900,
+     "shippingCents": 500,
+     "items": [
+      "1x Ceramic pour-over set [KIT-POUR-02, kitchen] @3400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1046",
+   "name": "Iris Esposito",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-3675",
+     "orderDate": "2026-07-01",
+     "promisedDate": "2026-07-05",
+     "deliveredDate": "2026-07-09",
+     "status": "delivered",
+     "totalCents": 10400,
+     "shippingCents": 700,
+     "items": [
+      "2x Folding camp chair [OUT-CHR-02, outdoor] @3450c",
+      "1x Linen apron [TXT-APR-01, textiles] @2800c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3678",
+     "orderDate": "2026-09-01",
+     "promisedDate": "2026-09-08",
+     "deliveredDate": "2026-09-06",
+     "status": "delivered",
+     "totalCents": 5900,
+     "shippingCents": 900,
+     "items": [
+      "1x Digital gift card $50 [GFT-050, gift_card] @5000c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3681",
+     "orderDate": "2026-08-09",
+     "promisedDate": "2026-08-15",
+     "deliveredDate": "2026-08-21",
+     "status": "delivered",
+     "totalCents": 10300,
+     "shippingCents": 900,
+     "items": [
+      "1x Rattan pendant light [LGT-PND-03, lighting] @9400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3693",
+     "orderDate": "2024-09-23",
+     "promisedDate": "2024-09-28",
+     "deliveredDate": "2024-09-27",
+     "status": "delivered",
+     "totalCents": 3400,
+     "shippingCents": 0,
+     "items": [
+      "1x Ceramic pour-over set [KIT-POUR-02, kitchen] @3400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3695",
+     "orderDate": "2026-09-21",
+     "promisedDate": "2026-09-27",
+     "deliveredDate": "2026-09-26",
+     "status": "delivered",
+     "totalCents": 2600,
+     "shippingCents": 700,
+     "items": [
+      "1x Clearance glass vase [CLR-VAS-09, clearance] @1900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3696",
+     "orderDate": "2026-09-23",
+     "promisedDate": "2026-09-29",
+     "deliveredDate": "2026-09-27",
+     "status": "delivered",
+     "totalCents": 9600,
+     "shippingCents": 700,
+     "items": [
+      "1x Stoneware dinner set (12 pc) [DIN-STN-12, kitchen] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3706",
+     "orderDate": "2025-03-19",
+     "promisedDate": "2025-03-24",
+     "deliveredDate": "2025-03-24",
+     "status": "delivered",
+     "totalCents": 19250,
+     "shippingCents": 0,
+     "items": [
+      "3x Folding camp chair [OUT-CHR-02, outdoor] @3450c",
+      "1x Stoneware dinner set (12 pc) [DIN-STN-12, kitchen] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3711",
+     "orderDate": "2026-10-09",
+     "promisedDate": "2026-10-16",
+     "deliveredDate": "2026-10-16",
+     "status": "delivered",
+     "totalCents": 18600,
+     "shippingCents": 700,
+     "items": [
+      "1x Smart thermostat [ELC-THM-01, electronics] @17900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3713",
+     "orderDate": "2024-12-31",
+     "promisedDate": "2025-01-06",
+     "deliveredDate": "2025-01-07",
+     "status": "delivered",
+     "totalCents": 18000,
+     "shippingCents": 900,
+     "items": [
+      "2x Solar lantern [OUT-LNT-01, outdoor] @2600c",
+      "1x Brass table lamp [LGT-BRS-01, lighting] @11900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1047",
+   "name": "Sam Hadley",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-3720",
+     "orderDate": "2026-10-10",
+     "promisedDate": "2026-10-17",
+     "deliveredDate": "2026-10-15",
+     "status": "delivered",
+     "totalCents": 8900,
+     "shippingCents": 0,
+     "items": [
+      "1x Merino throw blanket [TXT-MER-01, textiles] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3728",
+     "orderDate": "2026-09-03",
+     "promisedDate": "2026-09-09",
+     "deliveredDate": "2026-09-07",
+     "status": "delivered",
+     "totalCents": 4150,
+     "shippingCents": 700,
+     "items": [
+      "1x Folding camp chair [OUT-CHR-02, outdoor] @3450c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3730",
+     "orderDate": "2024-07-26",
+     "promisedDate": "2024-07-30",
+     "deliveredDate": "2024-07-30",
+     "status": "delivered",
+     "totalCents": 4200,
+     "shippingCents": 0,
+     "items": [
+      "1x Cast iron skillet 12in [SKL-CI-12, kitchen] @4200c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3741",
+     "orderDate": "2026-10-05",
+     "promisedDate": "2026-10-12",
+     "deliveredDate": "2026-10-10",
+     "status": "delivered",
+     "totalCents": 2800,
+     "shippingCents": 0,
+     "items": [
+      "1x Linen apron [TXT-APR-01, textiles] @2800c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3748",
+     "orderDate": "2026-09-17",
+     "promisedDate": "2026-09-23",
+     "deliveredDate": "2026-09-24",
+     "status": "delivered",
+     "totalCents": 22250,
+     "shippingCents": 0,
+     "items": [
+      "1x Brass table lamp [LGT-BRS-01, lighting] @11900c",
+      "3x Folding camp chair [OUT-CHR-02, outdoor] @3450c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3759",
+     "orderDate": "2024-03-05",
+     "promisedDate": "2024-03-09",
+     "deliveredDate": "2024-03-09",
+     "status": "delivered",
+     "totalCents": 21400,
+     "shippingCents": 0,
+     "items": [
+      "2x Folding camp chair [OUT-CHR-02, outdoor] @3450c",
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1048",
+   "name": "Kofi Mwangi",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-3771",
+     "orderDate": "2026-06-12",
+     "promisedDate": "2026-06-17",
+     "deliveredDate": "2026-06-17",
+     "status": "delivered",
+     "totalCents": 12600,
+     "shippingCents": 700,
+     "items": [
+      "1x Brass table lamp [LGT-BRS-01, lighting] @11900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3772",
+     "orderDate": "2026-02-02",
+     "promisedDate": "2026-02-08",
+     "deliveredDate": "2026-02-08",
+     "status": "delivered",
+     "totalCents": 9600,
+     "shippingCents": 700,
+     "items": [
+      "1x Merino throw blanket [TXT-MER-01, textiles] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3774",
+     "orderDate": "2025-09-20",
+     "promisedDate": "2025-09-24",
+     "deliveredDate": "2025-09-22",
+     "status": "delivered",
+     "totalCents": 17000,
+     "shippingCents": 900,
+     "items": [
+      "1x Cast iron skillet 12in [SKL-CI-12, kitchen] @4200c",
+      "1x Brass table lamp [LGT-BRS-01, lighting] @11900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3780",
+     "orderDate": "2025-07-11",
+     "promisedDate": "2025-07-16",
+     "deliveredDate": "2025-07-14",
+     "status": "delivered",
+     "totalCents": 2800,
+     "shippingCents": 0,
+     "items": [
+      "1x Linen apron [TXT-APR-01, textiles] @2800c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3782",
+     "orderDate": "2026-02-10",
+     "promisedDate": "2026-02-17",
+     "deliveredDate": "2026-02-15",
+     "status": "delivered",
+     "totalCents": 5200,
+     "shippingCents": 0,
+     "items": [
+      "2x Solar lantern [OUT-LNT-01, outdoor] @2600c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3786",
+     "orderDate": "2025-03-08",
+     "promisedDate": "2025-03-12",
+     "deliveredDate": "2025-03-12",
+     "status": "delivered",
+     "totalCents": 18800,
+     "shippingCents": 500,
+     "items": [
+      "1x Stoneware dinner set (12 pc) [DIN-STN-12, kitchen] @8900c",
+      "1x Rattan pendant light [LGT-PND-03, lighting] @9400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3787",
+     "orderDate": "2026-03-29",
+     "promisedDate": "2026-04-03",
+     "deliveredDate": "2026-04-02",
+     "status": "delivered",
+     "totalCents": 5100,
+     "shippingCents": 900,
+     "items": [
+      "1x Cast iron skillet 12in [SKL-CI-12, kitchen] @4200c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3788",
+     "orderDate": "2026-09-21",
+     "promisedDate": "2026-09-27",
+     "deliveredDate": "2026-09-25",
+     "status": "delivered",
+     "totalCents": 16650,
+     "shippingCents": 700,
+     "items": [
+      "1x Folding camp chair [OUT-CHR-02, outdoor] @3450c",
+      "1x Custom-cut glass shelf [GLS-CUT-07, custom_cut_glass] @12500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3801",
+     "orderDate": "2026-10-10",
+     "promisedDate": "2026-10-14",
+     "deliveredDate": "2026-10-12",
+     "status": "delivered",
+     "totalCents": 9400,
+     "shippingCents": 0,
+     "items": [
+      "1x Rattan pendant light [LGT-PND-03, lighting] @9400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1049",
+   "name": "Sofia Calloway",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-3802",
+     "orderDate": "2026-09-19",
+     "promisedDate": "2026-09-23",
+     "deliveredDate": "2026-09-23",
+     "status": "delivered",
+     "totalCents": 10350,
+     "shippingCents": 0,
+     "items": [
+      "3x Folding camp chair [OUT-CHR-02, outdoor] @3450c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3812",
+     "orderDate": "2025-02-22",
+     "promisedDate": "2025-02-28",
+     "deliveredDate": "2025-02-27",
+     "status": "delivered",
+     "totalCents": 9600,
+     "shippingCents": 700,
+     "items": [
+      "1x Stoneware dinner set (12 pc) [DIN-STN-12, kitchen] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3818",
+     "orderDate": "2024-02-21",
+     "promisedDate": "2024-02-25",
+     "deliveredDate": "2024-02-25",
+     "status": "delivered",
+     "totalCents": 13800,
+     "shippingCents": 900,
+     "items": [
+      "1x Noise-cancelling headphones [ELC-NCH-01, electronics] @12900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3825",
+     "orderDate": "2025-06-13",
+     "promisedDate": "2025-06-17",
+     "deliveredDate": "2025-06-17",
+     "status": "delivered",
+     "totalCents": 5900,
+     "shippingCents": 900,
+     "items": [
+      "1x Digital gift card $50 [GFT-050, gift_card] @5000c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3832",
+     "orderDate": "2026-09-14",
+     "promisedDate": "2026-09-20",
+     "deliveredDate": "2026-09-18",
+     "status": "delivered",
+     "totalCents": 13000,
+     "shippingCents": 500,
+     "items": [
+      "1x Custom-cut glass shelf [GLS-CUT-07, custom_cut_glass] @12500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3835",
+     "orderDate": "2025-11-15",
+     "promisedDate": "2025-11-19",
+     "deliveredDate": "2025-11-17",
+     "status": "delivered",
+     "totalCents": 23600,
+     "shippingCents": 700,
+     "items": [
+      "1x Bookshelf speaker pair [ELC-SPK-02, electronics] @22900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1050",
+   "name": "Ada Castellano",
+   "tier": "standard",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-3844",
+     "orderDate": "2026-07-08",
+     "promisedDate": "2026-07-13",
+     "deliveredDate": "2026-07-12",
+     "status": "delivered",
+     "totalCents": 5000,
+     "shippingCents": 0,
+     "items": [
+      "1x Digital gift card $50 [GFT-050, gift_card] @5000c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3851",
+     "orderDate": "2026-07-26",
+     "promisedDate": "2026-07-31",
+     "deliveredDate": "2026-07-29",
+     "status": "delivered",
+     "totalCents": 23800,
+     "shippingCents": 900,
+     "items": [
+      "1x Bookshelf speaker pair [ELC-SPK-02, electronics] @22900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3860",
+     "orderDate": "2024-04-15",
+     "promisedDate": "2024-04-21",
+     "deliveredDate": "2024-04-20",
+     "status": "delivered",
+     "totalCents": 3500,
+     "shippingCents": 700,
+     "items": [
+      "1x Linen apron [TXT-APR-01, textiles] @2800c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3873",
+     "orderDate": "2026-09-01",
+     "promisedDate": "2026-09-05",
+     "deliveredDate": "2026-09-05",
+     "status": "delivered",
+     "totalCents": 3400,
+     "shippingCents": 0,
+     "items": [
+      "1x Ceramic pour-over set [KIT-POUR-02, kitchen] @3400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3878",
+     "orderDate": "2024-10-30",
+     "promisedDate": "2024-11-06",
+     "deliveredDate": "2024-11-05",
+     "status": "delivered",
+     "totalCents": 2600,
+     "shippingCents": 700,
+     "items": [
+      "1x Clearance glass vase [CLR-VAS-09, clearance] @1900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3887",
+     "orderDate": "2026-03-12",
+     "promisedDate": "2026-03-18",
+     "deliveredDate": "2026-03-16",
+     "status": "delivered",
+     "totalCents": 5300,
+     "shippingCents": 0,
+     "items": [
+      "1x Ceramic pour-over set [KIT-POUR-02, kitchen] @3400c",
+      "1x Clearance glass vase [CLR-VAS-09, clearance] @1900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3888",
+     "orderDate": "2026-09-05",
+     "promisedDate": "2026-09-11",
+     "deliveredDate": "2026-09-09",
+     "status": "delivered",
+     "totalCents": 9400,
+     "shippingCents": 500,
+     "items": [
+      "1x Merino throw blanket [TXT-MER-01, textiles] @8900c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3894",
+     "orderDate": "2026-09-12",
+     "promisedDate": "2026-09-19",
+     "deliveredDate": "2026-09-17",
+     "status": "delivered",
+     "totalCents": 14500,
+     "shippingCents": 0,
+     "items": [
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  },
+  {
+   "id": "CUS-1051",
+   "name": "Imani Holloway",
+   "tier": "gold",
+   "churnFlags": [],
+   "orders": [
+    {
+     "id": "ORD-3895",
+     "orderDate": "2026-10-12",
+     "promisedDate": "2026-10-17",
+     "deliveredDate": null,
+     "status": "shipped",
+     "totalCents": 7800,
+     "shippingCents": 0,
+     "items": [
+      "1x Stoneware mug set (4) [MUG-STN-04, kitchen] @3600c",
+      "1x Cast iron skillet 12in [SKL-CI-12, kitchen] @4200c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3896",
+     "orderDate": "2026-09-28",
+     "promisedDate": "2026-10-04",
+     "deliveredDate": "2026-10-03",
+     "status": "delivered",
+     "totalCents": 5100,
+     "shippingCents": 900,
+     "items": [
+      "1x Cast iron skillet 12in [SKL-CI-12, kitchen] @4200c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3898",
+     "orderDate": "2026-06-19",
+     "promisedDate": "2026-06-23",
+     "deliveredDate": "2026-06-21",
+     "status": "delivered",
+     "totalCents": 15400,
+     "shippingCents": 900,
+     "items": [
+      "1x Linen duvet cover (queen) [TXT-LIN-Q, textiles] @14500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3909",
+     "orderDate": "2026-10-06",
+     "promisedDate": "2026-10-11",
+     "deliveredDate": "2026-10-09",
+     "status": "delivered",
+     "totalCents": 3400,
+     "shippingCents": 0,
+     "items": [
+      "1x Ceramic pour-over set [KIT-POUR-02, kitchen] @3400c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3921",
+     "orderDate": "2026-08-15",
+     "promisedDate": "2026-08-20",
+     "deliveredDate": "2026-08-19",
+     "status": "delivered",
+     "totalCents": 1900,
+     "shippingCents": 0,
+     "items": [
+      "1x Clearance glass vase [CLR-VAS-09, clearance] @1900c"
+     ],
+     "captures": 2,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3924",
+     "orderDate": "2026-03-26",
+     "promisedDate": "2026-03-30",
+     "deliveredDate": "2026-03-30",
+     "status": "delivered",
+     "totalCents": 18000,
+     "shippingCents": 900,
+     "items": [
+      "1x Noise-cancelling headphones [ELC-NCH-01, electronics] @12900c",
+      "1x Cast iron skillet 12in [SKL-CI-12, kitchen] @4200c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    },
+    {
+     "id": "ORD-3931",
+     "orderDate": "2024-06-05",
+     "promisedDate": "2024-06-09",
+     "deliveredDate": "2024-06-07",
+     "status": "delivered",
+     "totalCents": 12500,
+     "shippingCents": 0,
+     "items": [
+      "1x Custom-cut glass shelf [GLS-CUT-07, custom_cut_glass] @12500c"
+     ],
+     "captures": 1,
+     "damageScan": false
+    }
+   ]
+  }
+ ]
+}

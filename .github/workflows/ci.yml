@@ -1,0 +1,64 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: omni
+          POSTGRES_PASSWORD: omni
+          POSTGRES_DB: omniresolve_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U omni -d omniresolve_test"
+          --health-interval 5s --health-timeout 5s --health-retries 20
+    env:
+      DATABASE_URL: postgres://omni:omni@localhost:5432/omniresolve_test
+      TEST_DATABASE_URL: postgres://omni:omni@localhost:5432/omniresolve_test
+      SESSION_SECRET: ci-only-session-secret-0000000000000000000000
+      APPROVAL_SIGNING_SECRET: ci-only-approval-secret-00000000000000000000
+      CRON_SECRET: ci-only-cron-secret
+      DEFAULT_MODE: replay
+      VITE_CONFIG_NATIVE_IGNORE_WARNING: "true"
+      # No LLM keys in CI: every LLM node replays recorded outputs or uses a scripted model in tests.
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Policy text matches rules.json
+        run: npm run policies:validate
+      - name: Datasets pass the deterministic checker
+        run: npx tsx scripts/check-datasets.ts data/datasets/eval-set.jsonl data/datasets/retrieval-queries.jsonl data/datasets/redteam-single.jsonl data/datasets/redteam-multi.jsonl data/datasets/benign-tricky.jsonl
+      - run: npm run lint
+      - run: npm run typecheck
+      - name: Migrate test database
+        run: npm run db:migrate
+      - name: Unit, integration and property tests
+        run: npm test
+      - run: npm run build
+      - name: Install Playwright browser
+        run: npx playwright install --with-deps chromium
+      - name: E2E smoke (replay mode)
+        run: npm run test:e2e
+      - name: npm audit (production deps)
+        run: npm audit --omit=dev --audit-level=high
+      - name: Secret scan
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
