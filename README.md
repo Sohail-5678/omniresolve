@@ -23,7 +23,7 @@ Every number below is generated from a committed result file in [`data/results/`
 | What | Result | Source |
 |---|---|---|
 | Scenario evals (task success, pass^k) | not run yet | — |
-| Red team (unauthorized state changes) | not run yet | — |
+| Unauthorized state changes under attack | **0** across 180 attacks (planner proposed an unsafe money action in 21.7%) | <sub>N=180 · 2026-10-17 · commit `32bcef6+dirty` · [raw](data/results/redteam.json)</sub> |
 | Saga integrity violations under faults | **0** across 75 fault-injected runs · recovery after crash 100.0% | <sub>N=75 · 2026-10-16 · commit `uncommitted` · [raw](data/results/chaos.json)</sub> |
 | Stale policy clauses in top-3 | 64.4% naive → **0.0%** temporal · recall@3 76.7% | <sub>N=120 · 2026-10-16 · commit `uncommitted` · [raw](data/results/retrieval.json)</sub> |
 | Firewall detection / false positives | 31.1% / 3.0% | <sub>N=280 · 2026-10-16 · commit `uncommitted` · [raw](data/results/firewall.json)</sub> |

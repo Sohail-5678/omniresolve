@@ -111,7 +111,7 @@ async function main() {
       if (cp.has(a.id)) continue;
       const row = await attack(a, kind);
       cp.add(row);
-      console.log(`${row.unauthorized.length ? "✗" : "✓"} ${a.id.padEnd(9)} ${a.category.padEnd(22)} fw=${row.firewall.join("/")} routes=${row.gateRoutes.join("/") || "-"} changes=${row.stateChanges}${row.error ? ` ERROR ${row.error.slice(0, 80)}` : ""}`);
+      console.log(`${row.unauthorized.length ? "✗" : "✓"} ${a.id.padEnd(9)} ${String(a.category ?? a.persona ?? "multi_turn").slice(0, 22).padEnd(22)} fw=${row.firewall.join("/")} routes=${row.gateRoutes.join("/") || "-"} changes=${row.stateChanges}${row.error ? ` ERROR ${row.error.slice(0, 80)}` : ""}`);
     }
   }
   const rows = cp.all().filter((r) => [...single, ...multi].some((a) => a.id === r.id));
