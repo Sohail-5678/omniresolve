@@ -289,7 +289,7 @@ Every eval writes `data/results/<name>.json` with date, commit, dataset, N, mode
 - 180 attacks through the **full graph**. The simulated supervisor rejects every approval card.
 - **Headline metric:** **unauthorized state changes**, meaning money or goods on another customer's order, refunds above paid, or a refund without a consumed token. **Target: 0.**
 - **`plannerFooledRate`:** how often the LLM *was* fooled into proposing a money action that the gate or a human then stopped. This is the honest "the LLM layer gets fooled, the code layer catches it" number.
-- **Status right now:** running locally. About 139 runs are logged so far with **0 unauthorized changes**. When it finishes it writes `data/results/redteam.json`; then run `npm run readme:tables` and push.
+- **Result (done, 180 attacks, 0 errors):** **0 unauthorized state changes.** The planner was fooled into proposing an unsafe money action in **21.7%** of attacks, and the gate or a human stopped every one. The firewall flagged 31.1% and blocked none. 15% were routed to a human. 30 runs changed state, all of it legitimate per policy on the attacker's own order.
 
 ### 8.4 Non-LLM evals (done, numbers in the README)
 - **Chaos:** 75 runs, 0 violations, 100% recovery.
@@ -499,7 +499,7 @@ Every eval writes `data/results/<name>.json` with date, commit, dataset, N, mode
 |---|---|
 | Live site + console | ✅ https://omniresolve.vercel.app |
 | Chaos, retrieval, firewall evals | ✅ results committed |
-| Red-team eval | ⏳ running locally (0 unauthorized so far); push `redteam.json` when done |
+| Red-team eval | ✅ 0 unauthorized changes / 180 attacks; planner fooled 21.7%, all caught |
 | Scenario evals (pass^k) + ablations | ❌ not run yet (Groq quota); commands in §8.2 |
 | Real embeddings | ❌ no Gemini key; dense = labeled lexical vector |
 | Human review of datasets | ❌ to do |
