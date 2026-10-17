@@ -52,3 +52,6 @@ AGENTS.md
 CLAUDE.md
 .claude/
 .evals-logs/
+
+# private notes
+explainer.md
