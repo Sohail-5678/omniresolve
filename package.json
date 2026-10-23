@@ -31,7 +31,7 @@
     "@vercel/functions": "3.10.1",
     "clsx": "2.1.1",
     "drizzle-orm": "0.45.4",
-    "lucide-react": "1.58.0",
+    "lucide-react": "1.59.0",
     "motion": "14.3.0",
     "next": "16.4.2",
     "pg": "8.23.1",
